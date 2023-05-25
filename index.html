@@ -1,0 +1,2502 @@
+<!Doctype html>
+<html>
+<head>
+
+<meta charset="utf-8">
+<title>La Fronterísima </title>
+<meta name="description" content="la fronterisima una plataforma online para compartir temas musicales de artistas Colombianos e hispanos" />
+<meta property="og:description" content="Plataforma online compartir temas musicales actuales - la fronterisima - artistas de Colombia y del mundo hispano.">
+<meta name="keywords" content="Eventos musicales, la frontera, artistas de Colombia, eventos en Colombia, la fronterisima, la fronterisima, canciones nuevas, artistas nuevos" />
+<meta property="og:site_name" content="https://lafronterisima.com">
+<meta property="og:image" content="https://www.lafronterisima.com/frontera.png">
+<meta name="author" content="Oscar">
+<meta name="refresh" content="2"/>
+	
+	<meta name="viewport" content="width=device-width, user-scalable=no,
+	initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+	<meta name="theme-color" content="#20B2AA">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+	<link rel="apple-touch-icon" href="pwa/icon-72x72.png" />
+    <link rel="apple-touch-icon" href="pwa/icon-96x96.png" />
+    <link rel="apple-touch-icon" href="pwa/icon-128x128.png" />
+	<link rel="apple-touch-icon" href="pwa/icon-144x144.png" />
+	<link rel="apple-touch-icon" href="pwa/icon-256x256.png" />
+	<link rel="apple-touch-icon" href="pwa/icon-512x512.png" />
+
+    <meta name="apple-mobile-web-app-status-bar" content="#3CB371" />
+	
+    <meta name="MobileOptimized" content="width">
+    <meta name="HandheldFriendly" content="true">
+	<link rel="canonical" href="https://lafronterisima.com">
+   
+    <link rel="stylesheet" href="css/radio.css">
+
+	<link rel="manifest" href="manifest.json">
+ 
+	<link rel="icon" href="imagenes/frontera.png">
+    <link rel="stylesheet" href="css/font-awesome.css">
+    <link rel="stylesheet" href="css/fonts-icon.css">
+	<link rel="stylesheet" href="css/animate.css">
+	<script src="js/jquery 1.9.0.min.js"></script>
+    <script src="js/prefix.min.js"></script>
+	<script src="js/image.js"></script>
+	<link rel="stylesheet" href="css/jquery.scrollflow.css">
+    <script src="js/jquery.scrollflow.min.js"></script>   
+	<link rel="stylesheet" href="owl/assets/owl.carousel.min.css">
+    <script src="js/app.js"></script>
+  
+	<script src="js/iframe.js"></script>	
+
+	<script src="http://api.html5media.info/1.1.5/html5media.min.js"></script>
+
+ 
+    <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>
+  
+  <script>
+    window.OneSignal = window.OneSignal || [];
+    OneSignal.push(function() {
+    OneSignal.init({
+      appId: "c34ccfa8-4709-4bfc-8dc3-03cfa982186c",
+      });
+    });
+  </script>
+  
+  
+  <script>
+	
+       var mysound = document.getElementById("mysound");
+      
+          play.onclick = function() {
+            if (mysound.paused) {
+                mysound.play();
+                 play.src = "icon-pause";
+             }
+              else {
+                mysound.pause();
+                 play.src = "icon-play2";      
+              }
+        }
+
+	</script>
+	
+	
+</head>
+
+
+
+<body>
+
+<div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v12.0&appId=275754110188363&autoLogAppEvents=1" nonce="o7sE84jb"></script>
+
+<div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v15.0" nonce="tkQu31e9"></script>
+
+ <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6116874493728615"
+     crossorigin="anonymous"></script>
+	   
+	  
+	    <!-- Menu de Navegacion -->
+    <header id="header">
+	
+    <nav class="menu">	
+	
+	  <div class="logo-box">
+
+       <h1 class="logo"><span></span></h1> 
+       <span class="btn-menu"><i class="icon-menu"></i></span>
+     </div>
+	 
+	   <div id="radio">
+	      <audio id="track">
+            <source src="http://stream.zeno.fm/t100n9re6bruv">
+		  </audio>
+		   
+		  <div id="ppbutton">
+		     <div id="play-pause" class="play"></div>
+		 </div>
+      </div>
+	  
+	 <script>
+	    
+       var track = document.getElementById('track');
+       var controlBtn = document.getElementById('play-pause');
+
+       function playPause() {
+         if (track.paused) {
+         track.play();
+      
+        controlBtn.className = "pause";
+          } else { 
+        track.pause();
+      
+        controlBtn.className = "play";
+         }
+       }
+
+        controlBtn.addEventListener("click", playPause);
+        track.addEventListener("ended", function() {
+        controlBtn.className = "play";
+     });
+    </script>
+	  
+	 
+	<div class="nav-menu" class="menu-fixed">
+	
+     <div class="list-container">
+	 
+	 
+       <div class="nav_perfil">
+          <div class="nav_img">
+              <img src="imagenes/emisora.png">
+          </div>
+                        
+          <div>
+		
+            <a href="https://www.youtube.com/channel/UC3br-XVsFC1-vsGzco5H32w" target="_blank" class="nav_name"></a>
+               <h2 class="nav_profesion"></h2>
+          </div>
+        </div>
+	  
+	 
+        <ul class="lists">
+        <li><a href='#INICIO' class='activo'><span class="icon-home"></span>Inicio</a></li>
+        <!-- <li><a href='#GALERIA'><span class="icon-file-picture"></span>Galería</a></li>-->
+        <li><a href="#NOTAS"><span class="icon-newspaper"></span>Artículos</a></li>
+		
+		<li> <a href="#" class="submenu"><span class=" icon-file-text2" ></span>Catálogo <span class="icon-circle-down"></span></a>  
+		 
+		 <ul class="dropdown">
+		 
+			 <!-- <li><a href="#VIDEOS"><span class="icon-film"></span>Videos</a></li>-->
+		     <li><a href="#ENTREVISTA"><span class="icon-mic"></span>Entrevistas</a></li>
+			 <li><a href="#PRIVACIDAD"><span class="icon-lock"></span>Privacidad</a></li>
+			 <li><a href="#CHAT"><span class="icon-bubble"></span>Chat</a></li>
+			
+		 </ul>
+		 
+		 </li> 
+				 
+		<li><a href='#ARTISTAS'><span class="icon-headphones"></span>Artistas</a></li>
+     
+		
+	 </ul>
+		
+		
+     </div>
+	 
+	 </div>
+    </nav>
+	
+	
+	
+</header>
+ 
+
+  <main> 
+  
+	
+  <section id="contenido">
+  
+   
+     <article id="INICIO" class="elemento visible">
+	 
+	 	  <section class="home">
+     
+	 <div class="slider">
+	 
+		<div class="slide active">
+			<div class="txt">
+				<h1>Musica 24 horas</h1>
+			</div>
+			<img src="imagenes/1.jpg">
+			
+			
+            <div class="container">
+                <div class="caption">	 
+                    <p><a href="#novedad" style="color:white" class="btn">1. Especiales</a></p>
+                    <p><a href="#fans" style="color:white" class="btn">2. Fans Page</a></p>
+                    <p><a href="#emisoras" style="color:white" class="btn">3. Emisoras</a></p>
+                </div>
+            </div>
+			
+		</div>
+		
+	
+        <div class="slide">
+		   <img src="imagenes/2.jpg">
+		   
+              <div class="container">
+                <div class="caption">	 
+                    <p><a href="#novedad" style="color:white" class="btn">1. Especiales</a></p>
+                    <p><a href="#fans" style="color:white" class="btn">2. Fans Page</a></p>
+                    <p><a href="#emisoras" style="color:white" class="btn">3. Emisoras</a></p>
+                </div>
+            </div>
+        </div>
+		
+        <div class="slide">
+		  <img src="imagenes/3.jpg">
+             <div class="container">
+                <div class="caption">	 
+                    <p><a href="#novedad" style="color:white" class="btn">1. Especiales</a></p>
+                    <p><a href="#fans" style="color:white" class="btn">2. Fans Page</a></p>
+                    <p><a href="#emisoras" style="color:white" class="btn">3. Emisoras</a></p>
+                </div>
+            </div>
+        </div>
+		
+     </div>
+   
+    <!-- controls  -->
+    <div class="controls">
+        <div class="prev"><</div>
+        <div class="next">></div>
+    </div>
+
+
+  </section>
+	  
+      <section class="inicio-matrix scrollflow -slide-top">	
+	      
+           <div class="caja-matrix">
+            
+			<h3>LA FRONTERÍSIMA</h3>	
+		
+			<p>La Fronterísima una plataforma virtual, para compartir en este medio, temas musicales de artistas Colombianos e Hispanomericanos.</p>		
+            <p>Presentar el portafolio artístico, para eventos nacionales.</p>			
+			<p>Escúchala, gózala y siéntela, deja que la música fluya en ti.</p>
+            <p>Síguenos a través de las redes sociales.</p>
+			
+			<p> <a href="https://www.facebook.com/lafronterisima" target="_blank" style="color:white">1. Facebook</a><br><br>
+                <a href="https://www.youtube.com/channel/UC3br-XVsFC1-vsGzco5H32w" target="_blank" style="color:white">2. Youtube </a><br><br>
+				<a href="https://instagram.com/lafronterisimaonlain?igshid=8ya0xso968un" target="_blank" style="color:white">3. Instagram</a></p>
+	           <br>
+			   
+	        </div>
+			
+	
+		  <aside class="videos" >
+
+		     <div class="video-responsive">
+
+		       <iframe src="https://youtube.com/embed/j9Sp9UDIiv4?html5=1&enablejsapi=1"></iframe>
+		      </div>
+		   
+	      </aside>
+
+     </section>	
+	 
+	 <!-- la fronterisima  
+    <div class="publicidades">
+        
+     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6116874493728615"
+       crossorigin="anonymous"></script>
+         
+    
+     <ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-6116874493728615"
+     data-ad-slot="3266442575"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+    <script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+	
+   </div>
+	--> 
+  
+ 
+   <section id="blostgers">
+	
+   <h3>NOSOTROS</h3>
+   
+	<div class="contenido_blost">
+	
+		<article class="cards_radio">
+		   <img src="imagenes/artistas.jpg">  
+		   <h4>Objetivo</h4>	
+
+          <div class="parrafo">
+			  Promover una propuesta musical  con la finalidad de difundir diversos artistas, para enriquecer el
+		  	  mundo de la música e impactar a través de la diversidad de la misma, fomentando la riqueza cultural y musical de Colombia e Hispanoamérica. Por este medio virtual se presenta un pequeño portafolio de cantantes.<br> Los contactos se encuentran en la plataforma de la
+              web y de los artistas.</p>
+				
+          </div>
+		  
+	        <div class="fb-like" data-href="https://www.facebook.com/Fronterisima-Online-110195480742453" data-width="" data-layout="button_count" data-action="like" data-size="small" data-share="true"></div>			
+		
+		  
+	    </article>
+					
+		<article class="cards_radio">
+
+<figure>
+				             
+<script type="text/javascript">
+var image1=new Image()
+image1.src="imagenes/contas.jpg"
+var image2=new Image()
+image2.src="imagenes/noticias.jpg"
+var image3=new Image()
+image3.src="imagenes/entrevistas.jpg"
+
+</script>
+
+ <img src="imagenes/noticias.jpg" name="slide">
+
+<script type="text/javascript">
+
+var step=1
+function slideit(){
+document.images.slide.src=eval("image"+step+".src")
+if(step<3)
+step++
+else
+step=1
+setTimeout("slideit()",3000)
+}
+slideit()
+
+</script>
+			  
+          
+    </figure>
+		 
+		 
+	<h4>Info</h4>	
+
+  <div class="parrafo">
+			  Contáctenos para brindar mayor información sobre los eventos a nivel nacional. <br><br>
+			  Se trabaja con artistas de cartelera y aquellos que empiezan a posicionar su carrera con un gran talento e 
+				integridad.<br><br>
+				
+			 Contacto +57 3117033110
+                
+				    
+  </div>
+
+ <h4><input type ='button' value = 'Encuesta' onclick="window.open('votacion.php');"/></h4>					 
+
+  
+</article>
+					
+	
+       <article class="cards_radio">
+		 <img src="imagenes/Programación.jpg">
+		  <h4>Misión</h4>
+
+   <div class="parrafo">
+            La Fronterísima emite su programación desde la ciudad de  Pereira - Colombia. Síguenos en las plataformas virtuales, para vivir una experiencia inolvidable 
+	        24 horas con excelente repertorio musical.<br><br>
+			Gracias por seguirnos, los acompañamos con los temas de diversos géneros y tiempos.</p>
+		     
+	</div>
+	
+	<h4><input type ='button' value = 'Éxitos del Mes' onclick="window.open('mensual/musicales.html');"/></h4>					 
+	   
+
+	   </article>
+	 
+	 </div>
+	 			
+ </section>
+ 
+ 
+ <section class="carousel-wrapper" id="novedad" scrollflow -slide-top">
+
+    <h2 style="color:white">Especiales</h2>
+
+    <div class="owl-carousels_1 owl-theme">
+      
+	<div class="item">
+      <div class="productos_1 prod-first">  
+        <img src="img/web.jpg" />  
+        <div class="mask">  
+         <h2>DISEÑO WEB</h2>  
+         <p>La información en la actualidad se transmite en la red.</p>
+         <p>La música y el arte, reflejo de vivencias humanas.</p>
+         <p>Difusión de temas musicales.</p>	
+				   
+ <a class="info"><audio controls src="https://docs.google.com/uc?export=download&id=1c2Pn__1YFj6LLLhGyVfTgsOZ6UtGf-t1"></a>
+		   
+		   
+	 <script>	
+         $(document).ready(function( $ ) {
+	       $('audio').on("play", function (me) {
+		    $('audio').each(function (i,e) {
+		    	if (e !== me.currentTarget) {
+				this.pause(); 
+			}
+		  });
+	   });
+      })
+    </script>
+	
+         </div>  
+      
+	    </div>
+	   
+	   <div class="content">
+          <div class="title">Diseño Web</div>
+          <div class="sub-title">Programa</div>
+
+           <p>La vanguardia de la comunicación e información se enfocan en las plataformas digitales. Anunciar una forma de hacer crecer su proyecto. Solicita su diseño web.</p>
+         
+        </div>
+	   
+     </div>
+	 
+	 
+	   <div class="item">
+      <div class="productos_1 prod-first">  
+        <img src="img/especial 1.jpg" />  
+        <div class="mask">  
+         <h2>DARY SOSA</h2>  
+         <p>Entrevistas con diversos artistas de la musica regional.</p>
+         <p>Sintoniza exitos sin limites.</p>
+         <p>Dirige: Ruben Sosa</p>	
+				   
+        <a class="info"><audio controls src="https://docs.google.com/uc?export=download&id=1xpinzd5ljYEnCyilGbiYnD8hrUaLG-Fi"></a>
+		   
+		   
+	 <script>	
+         $(document).ready(function( $ ) {
+	       $('audio').on("play", function (me) {
+		    $('audio').each(function (i,e) {
+		    	if (e !== me.currentTarget) {
+				this.pause(); 
+			}
+		  });
+	   });
+      })
+    </script>
+	
+         </div>  
+      
+	    </div>
+	   
+	   <div class="content">
+          <div class="title">Dary As de México</div>
+          <div class="sub-title">Locutor</div>
+
+          <p>Programa radial  especial y entrevista desde Argentina, con artístas de 'La Ranchera y Norteña' conduce Rubén Darío. Especial 15:00 - entrevista 16:00 hora Colombiana. </p>
+        
+        </div>
+	   
+     </div>
+	  
+	  
+     
+    <div class="item">
+      <div class="productos_1 prod-first">  
+        <img src="img/especial 2.jpg" />  
+        <div class="mask">  
+         <h2>REACCIONEN MUJERES</h2>  
+         <p>Un programa en contra del maltrato a la mujer.</p>
+         <p>Inculcar el respeto y comprensión.</p>
+         <p> <a href="https://www.facebook.com/filmeskamaleon" 
+         target="_blank" style="color:white">Ir a fans kamaleon</a></p>	
+				   
+        <a class="info"><audio controls src="https://docs.google.com/uc?export=download&id=16n6gugpc20hHlRFmm-Yrs_ertBkFEs_S"></a>
+		   
+		   
+	    <script>	
+         $(document).ready(function( $ ) {
+	       $('audio').on("play", function (me) {
+		    $('audio').each(function (i,e) {
+		    	if (e !== me.currentTarget) {
+				this.pause(); 
+			   }
+		     });
+	      });
+         })
+        </script>
+	
+         </div>  
+      
+	    </div>
+	   
+	   <div class="content">
+          <div class="title">Reaccionen Mujeres</div>
+          <div class="sub-title">Programas</div>
+
+           <p>Una mini serie cuyo objetivo es mostrar las consecuencias del maltrato hacia la mujer y prevenir la violencia intrafamiliar. Producción de Filmes Kamaleon. Los esperamos.</p>
+         
+        </div>
+	   
+     </div>
+	  
+    </div>
+	
+	<script src="owl/owl.carousel.min.js"></script>
+
+  <script>
+    $('.owl-carousel').owlCarousel({
+      margin: 15,
+       loop: true,
+       autoplay:false,
+      nav: true,
+      navText: [""],
+      responsive: {
+        0: {
+          items: 1
+        },
+        580: {
+          items: 2
+        },
+        1000: {
+          items: 3
+        }
+      }
+    });
+  </script>
+    
+  </section>
+  
+  
+  
+  <section class="flexbox-video" id="podcast" scrollflow -slide-top">
+	
+	   <div class="video">
+	     <h4 class="center">PODCAST'S</h4>
+		  <div class="postcast">
+
+         <iframe id="sc-widget" src="https://w.soundcloud.com/player/?url=https://api.soundcloud.com/users/125486431/favorites" width="100%" height="auto" scrolling="yes" frameborder="no"></iframe>
+
+          <script type="text/javascript">
+            (function(){
+             var widgetIframe = document.getElementById('sc-widget'),
+             widget = SC.Widget(widgetIframe);
+
+             widget.bind(SC.Widget.Events.READY, function() {
+             widget.bind(SC.Widget.Events.PLAY, function() {
+     
+             widget.getCurrentSound(function(currentSound) {
+             console.log('sound ' + currentSound.get('') + 'began to play');
+            });
+          });
+     
+          widget.getVolume(function(volume) {
+          console.log('current volume value is ' + volume);
+          });
+ 
+         widget.setVolume(95);
+     
+        });
+
+      }());
+     </script>
+
+   </div>
+		
+		</div>
+			
+		
+		<div class="video">
+		   <h4 class="center">MAPA</h4>
+		   <div class="youtube-player">
+		   
+		    <iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0" 
+             src="https://maps.google.com/maps?width=100%25&height=600&hl=es&q=Barrio%20cuba%20pereira+()&t=&z=14&ie=UTF8&iwloc=B&output=embed">
+            </iframe>
+		   
+		   </div>
+		  
+	    </div>
+
+     </section>
+	 
+	 
+  
+	<section class="carousel_lock scrollflow -slide-top">
+
+     <h3>LOCUTORES</h3>
+
+     <div class="owl-carousels_1 owl-theme">
+     
+      <div class="items">
+    
+	   <div class="productos_1 prod-first">  
+        <img src="imagenes/Arlex Marin.jpg" />  
+        <div class="mask">  
+         <h2>Arlex Marín</h2>  
+         <p>Manager de los grupos Clyybeyr,  Tropicana mix,  Pentagrama mix y las Diayam's tropical.</p>
+         <p>Locutor y editor de audio.</p>
+         <p>Contacto +57 3245216151</p>	
+				   
+        <a class="info"><audio controls src="https://docs.google.com/uc?export=download&id=18TVcCHxN6dV3s8JSFQ-GxMCmscUWrZf-"></a>
+		   
+		   
+	 <script>	
+         $(document).ready(function( $ ) {
+	       $('audio').on("play", function (me) {
+		    $('audio').each(function (i,e) {
+		    	if (e !== me.currentTarget) {
+				this.pause(); 
+			}
+		  });
+	   });
+      })
+    </script>
+	
+         </div>  
+       </div>
+	   
+     </div>
+	   
+	   
+	<div class="items">
+    
+	  <div class="productos_1 prod-first">  
+          <img src="imagenes/yolima.jpg" alt="">
+        <div class="mask">  
+         <h2>Yolima Rodríguez</h2>  
+          <p>Presentadora del Programa "Estación Rock"</p>
+		  <p>Recorrido por el Rock Iberoamericano.</p>
+    
+          <p>Contacto +57 3186907544</p>
+	   
+        <a class="info"><audio controls src="https://docs.google.com/uc?export=download&id=16QnFQMPpmEx4OlJxJQJPzlmcjdzSalnU"></a>
+          
+    <script>	
+     $(document).ready(function( $ ) {
+	   $('audio').on("play", function (me) {
+		$('audio').each(function (i,e) {
+			if (e !== me.currentTarget) {
+				this.pause(); 
+			}
+		  });
+	   });
+      })
+    </script>
+	
+         </div>  
+       </div>
+	   
+     </div>
+	 
+	 
+     
+      <div class="items">
+    
+	  <div class="productos_1 prod-first">  
+         <img src="imagenes/oscar.jpg" alt=""> 
+        <div class="mask">  
+         <h2>Oskar C.</h2>  
+        <p>Locutor y animador de la programación. Solicita su diseño web.</p>
+	    <p>Una forma de llegar al corazón de los seguidores.</p>
+	    <p>Contacto: +57 3155276476</p>	
+		
+       <a class="info">
+	    <audio controls src="https://docs.google.com/uc?export=download&id=1c2Pn__1YFj6LLLhGyVfTgsOZ6UtGf-t1">
+	   </a> 
+	   
+	<script>	
+     $(document).ready(function( $ ) {
+	   $('audio').on("play", function (me) {
+		$('audio').each(function (i,e) {
+			if (e !== me.currentTarget) {
+				this.pause(); 
+			}
+		  });
+	   });
+      })
+    </script>
+	   
+       </div>  
+       </div>
+	   
+      </div>
+    
+    </div>
+   
+</div> 
+
+
+
+  <script src="owl/owl.carousel.min.js"></script>
+
+  <script>
+    $('.owl-carousels_1').owlCarousel({
+      margin: 15,
+       loop: true,
+       autoplay:false,
+      nav: true,
+      navText: [""],
+      responsive: {
+        0: {
+          items: 1
+        },
+        580: {
+          items: 2
+        },
+        1000: {
+          items: 3
+        }
+      }
+    });
+  </script>
+  
+  
+  </section>
+  
+  
+  
+   <section class="boxes-portfolio" id="fans" scrollflow -slide-top">	
+	
+        <div class="caja-portfolio">
+           <h3>FAN PAGE</h3>
+
+           <div class="fb_background">		   
+  		
+          <div class="fb-page" data-href="https://www.facebook.com/lafronterisima" data-tabs="timeline" data-width="" data-height="" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/lafronterisima" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/lafronterisima">La Fronterisima</a></blockquote></div>
+		   
+		   </div>
+		 </div>
+		
+
+		  <div class="caja-portfolio">
+           <h3>FAN CHAT</h3>	
+  		
+		    <div class="fb_background">	
+			
+            <div class="fb-comments" data-href="https://web.facebook.com/lafronterisima" data-width="100%" data-numposts="3"></div>
+	      
+		  </div>
+		  
+		 </div>
+		  
+     </section>	
+	 
+	 
+	 <section id="blogg">
+	 
+			 
+	    <div class="contenido_blocks1 scrollflow -slide-top">
+		
+	     <h3>VARIEDAD</h3>
+		
+		<article class="card_radio">
+		
+	   <div class="gallerys">
+     
+        <div class="photos1">
+		
+		 <div class="productos prod-first">  
+            <div class="block1 active"> 
+			  
+			 <img src="programas/dary.jpg" />  
+             <div class="mask">  
+              <h2>"El as de México"</h2>  
+              <p>Desde Argentina, entrevistas a nivel hispano con artistas populares y norteños.</p>
+	          <p>Lo mejor de la música regional, popular y norteña.</p>
+		    </div> 
+ 
+	     </div>
+			
+            <div class="block1">
+			<img src="programas/rock.jpg"> 
+             <div class="mask">  
+              <h2>Estación Rock</h2>  
+             <p>Un programa para los amantes del rock de todos los tiempos: Acompáñenos en este viaje musical.</p>
+			  <p>No se pierda de una cita con los mejores éxitos.</p>
+              </div>  
+			</div>
+			
+			<div class="block1">
+			  <img src="programas/variedad.jpg"> 
+             <div class="mask">  
+               <h2>Variedad Musical</h2>  
+                <p>Todos los días con los mejores artistas nacionales e internacionales.</p>
+			    <p>Una descarga musical sin fronteras, no se lo pierdan.</p>
+				<p>Presenta: Maria del Carmen Rios.</p>
+              </div>  
+			</div>
+			
+			 <div class="block1">
+			  <img src="programas/conexion.jpg" />  
+              <div class="mask">  
+              <h2>Conexión Musical</h2>  
+                <p>Un programa de música variada y mucho más.</p>
+	            <p>Invitados a seguirnos, los acompañamos con saludos, notas y actualidad.</p>		  
+			  
+              </div>  
+        
+	          </div>
+			  
+			   <div class="block1">
+			  <img src="programas/estudio.jpg" />  
+              <div class="mask">  
+              <h2>Programas</h2>  
+                <p>Siga los programas a través de la plataforma virtual.</p>
+	            <p>Difundir los géneros musicales y artistas del mundo.</p>
+				
+			  <div class="sony">
+	            <audio controls src="https://docs.google.com/uc?export=download&id=1W4GDC2bejqBE7gwM2EhxrT_dj6Bjk3wo">
+	          </div> 		  
+			  
+                </div>  
+	          </div>
+			  
+			  <div class="buttons1"><a class="prev1" href="#"><span><</span> </a><a class="next1" href="#"><span>></span></a></div>
+       
+			</div>
+
+			  
+           <h4 class="notes">Programas</h4>
+		   
+       </div>
+		
+    
+	   </div>
+	   
+	  </article>
+		
+	
+		 <article class="card_radio">
+		
+	     <div class="gallerys2">
+     
+           <div class="photos2">
+		
+		   <div class="productos prod-first">  
+              <div class="block2 active"> 
+			     <img src="imagenes/tecnologo.jpg"> 
+              
+		   <div class="mask">  
+              <h2>Diversidad</h2>  
+			  <p>"Síguenos para complacerlos con una excelente programación y música."</p>
+			  <p>Entrevistas, temas musicales y mucho más</p>
+     	      </div>   
+	      </div>
+			
+		
+     <div class="block2">
+	   <img src="imagenes/consola.jpg">
+              
+		 <div class="mask">  
+             <h2>Actualidad</h2>  
+              <p>"Nos esforzamos para entregarles el mejor repertorio y notas."</p>
+              <p>"Sin fronteras, marcando la pauta en el espacio y tiempo</p>
+			  
+			  <div class="sony">
+	            <audio controls src="https://docs.google.com/uc?export=download&id=1SX69xU02CDMpQwyj0-BNFIiVlYJjflT9">
+	          </div> 	
+			  
+     	    </div>   
+	      </div>
+			
+        <div class="buttons2"><a class="prev2" href="#"><span><</span> </a><a class="next2" href="#"><span>></span></a></div>
+       
+	  </div>
+			   
+			   
+	 <h4 class="notes">Entretenimiento</h4>	   	 		
+      
+	 </div>
+		
+     
+	 </div>
+	   
+	  
+     </article>			
+		
+		
+		
+	 <article class="card_radio">
+		
+	     <div class="gallerys3">
+     
+           <div class="photos3">
+		
+		   <div class="productos prod-first">  
+              <div class="block3 active"> 
+			     <img src="programas/Elfre.jpg"> 
+              
+		   <div class="mask">  
+              <h2>Elfre Delgado</h2>  
+			  <p>Artista consagrado a la música vallenata, oriundo de Ayapel, Cordoba - Colombia.</p>
+	          <p>Invita a escuchar y seguir su nuevo tema musical "Tirando" espero que les guste.</p>
+	 	
+     	      </div>   
+	      </div>
+			
+		
+     <div class="block3">
+	   <img src="programas/domingo.jpg" />  
+              
+		 <div class="mask">  
+             <h2>Domingo Rendón</h2>  
+             <p>Cantante, productor y compositor Venezolano del género llanero, nacido en Pariguán - Anzoátegui.</p>
+	         <p>Presenta su tema promocional "Olvídate Coleguita".</p>
+	 	  
+     	 </div>   
+	   </div>
+			
+			
+       <div class="block3">
+	   <img src="programas/alexis.jpg" />  
+              
+		 <div class="mask">  
+            <h2>Luis Alexis</h2>  
+			  <p>Artista Ecuatoriano, cantante vallenato, participó en el "Reality de Diomedes diaz" Ecuador, en el año 2016 .</p>
+	 	      <p>Pegando fuerte con su tema "El color de tus ojos"</p>
+     	 </div>   
+	   </div>
+	   
+	   
+	   <div class="block3">
+	   <img src="programas/doris.jpg" />  
+              
+		 <div class="mask">  
+            <h2>Doris del Mar</h2>  
+	        <p>Artista venezolana compositora e interprete de música llanera, desde temprana edad inicia su carrera musical.</p>
+			<p>Tiene el gusto de promocionar su tema titulado "Una luna enamorada" de Carlos Cumarin.</p>
+		  
+     	 </div>   
+	   </div>
+	   
+	   
+	    <div class="block3">
+			  <img src="programas/temas.jpg" />  
+              <div class="mask">  
+              <h2>Exitos Musicales</h2>  
+                <p>Conozca temas de artistas emergentes del mundo hispano.</p>
+	            <p>Promocionando éxitos musicales sin fronteras.</p>
+				
+			  <div class="sony">
+	            <audio controls src="https://docs.google.com/uc?export=download&id=15HhVkWsY8ClLkzt7Gz2vCUfYeye0Pk0m">
+	          </div> 		  
+			  
+              </div>  
+	        </div>
+			 
+			   <div class="buttons3"><a class="prev3" href="#"><span><</span> </a><a class="next3" href="#"><span>></span></a></div>
+       
+	  </div>
+			   
+			   
+	 <h4 class="notes">Nuevos Exitos</h4>	   	 		
+      
+	 </div>
+		
+     
+	 </div>
+	   
+	  
+     </article>			
+				 
+	 </div>
+	 			
+ </section> 
+ 
+ 
+  
+
+  <section class="carousels-radio" id="emisoras" scrollflow -slide-top">
+
+    <h2>EMISORAS</h2>
+
+    <div class="owl-carousels owl-theme">
+      
+     
+    <div class="items">
+        <img src="emisora/tropical.png" />
+      
+      
+       <div class="contents">
+          <div class="titles">El Palacio Tropical</div>
+          <div class="sub-titles">Colombia</div>
+          <p>Plataforma online que emite desde La Guajira, para difundir la música
+		     tropical y caribeña cuyo fin es conservar su raices, a traves de diversos géneros musicales.</p>
+         
+      
+
+		 <div class="radio">
+          
+       <div class="emisora">
+	   <audio controls> <source src="http://stream.zeno.fm/qmen7kmxdf9uv" /></audio>
+	   </div> 
+  
+    <script>	
+     $(document).ready(function( $ ) {
+	   $('audio').on("play", function (me) {
+		$('audio').each(function (i,e) {
+			if (e !== me.currentTarget) {
+				this.pause(); 
+			}
+		  });
+	   });
+      })
+    </script>
+
+	
+          </div>
+		  
+        </div>
+    
+     </div>
+	 
+     
+	  <div class="items">
+        <img src="emisora/la voz.png" />
+      
+      
+       <div class="contents">
+          <div class="titles">La Voz del Rey</div>
+          <div class="sub-titles">Planeta Rica</div>
+          <p>Usar los medios digitales y radiales para difundir el evangelio; edificar y consolar a los creyentes hispanos.
+		    Director: Seir Diaz.
+			 Solicita su exito preferido: +57 3112687477.</p>
+         
+      
+
+		 <div class="radio">
+          
+       <div class="emisora">
+	    <audio controls> <source src="http://stream.zeno.fm/qv0h7n21urhvv"/></audio>
+	   </div> 
+  
+          </div>
+		  
+        </div>
+    
+     </div>
+     
+      <div class="items">
+         <img src="emisora/scom.png" />
+      
+      
+       <div class="contents">
+          <div class="titles">Radio Scom</div>
+          <div class="sub-titles">Cali</div>
+          <p>Fomentar una cultura musical con excelente programación las 24 horas, que
+		  permitan estar a la vanguardia de las nuevas tendencias tecnológicas en comunicación.</p>
+          
+		 <div class="radio">
+          
+       <div class="emisora">
+	    <audio controls><source src="https://tustreamingradios2.com/8046/stream" /></audio>
+	   </div> 
+  
+        </div>
+		  
+        </div>
+    
+     </div>
+	 
+	 
+	   <div class="items">
+         <img src="emisora/empresa.png" />
+      
+      
+       <div class="contents">
+          <div class="titles">Musica Sin Fronteras</div>
+          <div class="sub-titles">Bogotá</div>
+          <p>Promover en la plataforma exitos de artistas nacionales e internacionales.
+		     Trasmite y produce una programación variada, para ofrecer musica a otro nivel. "Sin Fronteras".</p>      
+	
+		  <div class="radio">
+          
+       <div class="emisora">
+	   <audio controls src="http://stream.zeno.fm/672xk039ptzuv">
+	    </div> 
+  
+         </div>
+		  
+        </div>
+    
+     </div>
+     
+	 
+     
+      <div class="items">
+        <img src="emisora/cristiana.png" />
+      
+      
+       <div class="contents">
+          <div class="titles">Radio Celestial</div>
+          <div class="sub-titles">Pereira</div>
+          <p>Una radio para reconfortar al creyente, con mensajes variados, 
+		  reflexiones y bellas melodias de alabanza. Sintoniza  "El Devocional"  a las  6:50 am. Héctor Alarcón.</p>
+         
+      
+
+		 <div class="radio">
+          
+       <div class="emisora">
+	    <audio controls> <source src="https://stream2.305stream.com/proxy/client059?mp=/stream"/></audio>
+	   </div> 
+  
+          </div>
+		  
+        </div>
+    
+     </div>
+	 
+	 
+	 <div class="items">
+        <img src="emisora/palacio.png" />
+      
+      
+       <div class="contents">
+          <div class="titles">El Palacio del Vallenato</div>
+          <div class="sub-titles">Riohacha</div>
+          <p>Gran propuesta musical vallenata desde el año 2012, para la difusión del folclor
+		     en su máxima expresión. Director: Lucas Palacio.
+			 Solicita su exito preferido: +57 3023062929.</p>
+         
+      
+
+		 <div class="radio">
+          
+       <div class="emisora">
+	    <audio controls> <source src="https://play8.tikast.com/proxy/lucas?mp=/stream"/></audio>
+	   </div> 
+  
+          </div>
+		  
+        </div>
+    
+     </div>
+	 
+     
+	  <div class="items">
+        <img src="emisora/leona.png" />
+      
+      
+       <div class="contents">
+          <div class="titles">Leona Radio</div>
+          <div class="sub-titles">Córdoba</div>
+          <p>Trasmitir información con un excelente contenido educativo, social y buena vibra musical. Responsabilidad para construir una radio al servicio de la comunidad.</p>
+         
+      
+
+		 <div class="radio">
+          
+       <div class="emisora">
+	    <audio controls> <source src="https://one.cloudstreaming.eu/proxy/buenavista/stream"></audio>
+	   </div> 
+ 
+          </div>
+		  
+        </div>
+    
+     </div>
+	 
+
+	 
+    </div>
+    
+    
+  </section>
+
+
+
+  <script src="owl/owl.carousel.min.js"></script>
+
+  <script>
+    $('.owl-carousels').owlCarousel({
+      margin: 15,
+       loop: true,
+       autoplay:true,
+      nav: true,
+      navText: [""],
+      responsive: {
+        0: {
+          items: 1
+        },
+        580: {
+          items: 2
+        },
+        1000: {
+          items: 3
+        }
+      }
+    });
+  </script>
+  
+  
+ 
+		<footer>
+		<div class="footer-container">
+			<div class="footer-main">
+				<div class="footer-columna">
+					<h3>Suscríbase</h3>
+					
+				<!--<form action="correo.php" method="POST" id="formulario">-->
+					  
+				  <form action="" method="" id="formulario">
+				 
+					 <input type="email" name="Sender" id="Sender" placeholder="Ingresa su correo" required>
+					  
+				      <textarea type="text" name="Message" id="Message"  placeholder="Ingresa su mensaje" required></textarea>
+					  <!--<input type="submit" value="Enviar"> -->
+					  
+					   <input type="submit" value="Enviar" id="button">
+					   	
+				    </form>
+							
+				   
+        </div>
+				
+		
+
+				<div class="footer-columna">
+					<h3>Dirección</h3>
+					<span class="fa fa-map-marker"><p>Pereira-Colombia</p></span><br>
+					<span class="fa fa-phone"> <a href="tel:+57 3245216151" style="color:white"> <p>+57-3245216151</p></a></span><br>
+					<span class="fa fa-envelope"> <a href="https://mail.google.com" target="_blank" style="color:white"><p>fronterisima12@gmail.com</p></a></span>
+				</div>
+
+				<div class="footer-columna">
+					<h3>Nosotros</h3>
+					<p>Nuestro objetivo es compartir y difundir temas musicales de artistas con gran talento de Colombia e Hispanoamérica.
+					 <br><br>
+                      Los invitamos a seguirnos a través de las redes sociales.</p>
+				</div>
+			</div>
+		</div>
+
+		<div class="footer-copy-redes">
+			<div class="main-copy-redes">
+				<div class="footer-copy">
+					 <h4> <span class="icon-headphones"> <a href="https://onlineradiobox.com/co/lafronterisima/?cs=co.lafronterisima" target="_blank" >Escúchanos: Radio Box App</a></span> </h4><br>  <!-- <a href="">INICIO</a></h4><br> -->
+				     <h4> <span class="icon-laptop"> <a class="copy"> Derechos &copy; Oscar Melo </a></span></h4>
+				</div>
+				<div class="footer-redes">
+					<a href="https://www.facebook.com/alma.lafronterisima" target="_blank" class="fa fa-facebook"></a>
+					<a href="https://instagram.com/lafronterisimaonlain?igshid=8ya0xso968un" target="_blank" class="fa fa-instagram"></a>
+					<a href="https://www.youtube.com/channel/UC3br-XVsFC1-vsGzco5H32w" target="_blank" class="fa fa-youtube-play"></a>
+				</div>
+			</div>
+		</div>
+       
+   
+    </footer>
+      
+
+ </article>
+
+ 
+	  
+<article id='NOTAS' class='elemento'>
+   
+   
+   <div class="notas_page">
+  
+	<div id="publicaciones" class="containst">
+		
+		<div class="advert-container">
+		
+			<div class="container-fluids">
+				<div class="imagen">
+					<a>
+						<img loading="lazy" class="img-responsive" src="imagenes/frontera.png">
+						<p>La Fronterísima</p>
+					</a>
+				</div>
+			</div>
+			
+			
+		<div class="container-fluids">
+		
+		  <div id="Adds">
+            
+                <img loading="lazy" id="imgAdd" src="img/adds/0.jpg" alt="Add">
+            </a>
+          </div>
+		
+		</div>
+		
+		
+	  <script>
+            var addToShow = 0;
+            var interval;
+            $(document).ready(function(){
+				interval = setInterval(showAdds, 5000);    
+            });
+            function showAdds() {
+				if (addToShow == 2) {
+					addToShow = 0;
+				} else {
+					addToShow ++;
+				}
+				$("#imgAdd").attr("src", "img/adds/" + addToShow + ".jpg");   
+            };
+        </script>
+		
+			
+	<div class="right"> 
+
+     <h2>Noticias</h2>
+
+    <ul>
+	  <li><a href="#" id="boton1">1. Pandemia del Siglo XXI</a></li>
+	  <li><a href="#" id="boton2">2. Ahorra e invierte</a></li>
+	  <li><a href="#" id="boton3">3. Géneros musicales</a></li>
+	  <li><a href="#" id="boton4">4. Muerte y antropología</a></li>
+	  <li><a href="#" id="boton5">5. El universo y su misterio</a></li>
+	  <li><a href="#" id="boton6">6. Caída Imperio Romano</a></li>
+	  <li><a href="#" id="boton7">7. Controversia iconoclasta</a></li>
+	  <li><a href="#" id="boton8">8. La ilustración</a></li>
+	  <li><a href="#" id="boton9">9. Justicia de Dios</a></li>
+	  <li><a href="#" id="boton10">10. Paradigmas cristianos</a></li>
+	  
+    </ul>
+
+      </div>
+					
+	</div>
+	
+
+		<div class="main-contain">
+		
+			<div id="notas_titular" class="container-fluid">
+			
+				<section class="contec">
+				     
+					   <div id="contex">
+					 
+					<h2>Pandemia del Siglo XXI</h2>
+					<div class="datetime">
+						<span class="glyphicon glyphicon-calendar"> </span><span>29/11/2020 10:00 am</span>
+					</div>
+					<div class="informacion">
+						<p>El mundo moderno y tecnológico desde la Revolución Industrial ha sentido un sin sabor con el brote del Covid y pienso que toca las extrañas filosóficas del saber y la ciencia, de los mercados nacionales e internacionales, al igual que las relaciones interhumanas. 
+						Desde muchos frentes se hacen llamados de S.O.S para luchar contra la pandemia, un mal que a muchos nos coge no muy aprevenidos en todo sentido, al igual que algunos gobernantes no dimensionaron las causas y efectos que acarraría si no se tomaban las medidas pertinentes. 
+                        Por eso desde muchos frentes de Salud, de gobierno entre otros nos han estado recalcando desde la llegada de los primeros casos a nuestro país, permanecer en casa, bajo las normas de sanidad como medida de corresponsabilidad con el fin de disminuir el avance del Virus.</p>
+
+					</div>
+					
+					<div class="imagen">
+						<img loading="lazy" class="img-responsive center-block" src="images/covid1.jpg" alt="">
+					     <h5>Imagen tomada de: pixabay.com</h5>
+					</div>
+					
+                     <div class="informacion">
+						<p>En consecuencia, ante estos momentos difíciles económicos, de relaciones sociales y de incertidumbre sobresalen muchas actitudes depresivas y desesperanzadoras. Para contrarrestar estos eventos, se debe ser recilientes y sacar lo mejor de nosotros mismos, para superar los obstáculos y crecer como personas y en lo profesional.</p>
+
+						<div class="imagen">
+							<img loading="lazy" class="img-responsive center-block" src="images/covid2.jpg" alt="">
+						     <h5>Imagen tomada de: pixabay.com</h5>
+						</div>
+
+			
+                        <p>Durante los últimos meses las actividades cotidianas han cambiado para todos, especialmente en las ciudades, pero no es para deprimirnos, aunque parezca que la salida a este problema no se vea tan cercana. Este tiempo, puede ser productivo si hacemos de él, una oportunidad para estar activos en otros campos y prepararnos para nuevos desafíos.</p>
+
+
+						<div class="media embed-responsive embed-responsive">
+							<iframe class="embed-responsive" src="https://youtube.com/embed/MPNjgrbcYc4?html5=1&enablejsapi=1"></iframe>
+						    <h5>Video tomado de: Youtube INPRFM</h5>
+						</div>
+
+						<p>Muchas veces desaprovechamos herramientas valiosas como un libro que contiene un mundo de experiencias reales o fantasiosas, otros nos ayudan a formarnos en alguna rama del saber.
+                           La internet durante los últimos años ha tenido un auge vertiginoso en un millar de contenidos y entretenimiento, encontrándose material valioso de aprendizaje, por lo cual puedes seguir
+						   un curso de tu interés, ya sea para actualizar su conocimiento profesional o también sea una ventana para aprender un idioma, un arte: La internet es un mar de conocimiento, útil para los retos del futuro.<br><br></p>
+                             
+					    <p>Que podemos hacer en nuestros hogares!</p> <br>
+
+						<p>En fin, son muchas las actividades que se pueden realizar en casa, para pasar esta cuarentena:<br><br>
+                         1.	Compartir más en familia con respeto, jugar juegos de mesa, escribir historias y leer.<br><br>
+                         2.	Fundamental hacer ejercicio físico y cuidar la salud.<br><br>
+                         3.	Escuchar música o leer un buen libro.<br><br>
+                         4.	Estudiar Online o en la carrera de tus sueños.<br><br>
+                         5.	Aprender algo nuevo a través de la Internet.</p>
+						 
+						 
+						<div class="imagen">
+							<img loading="lazy" class="img-responsive center-block" src="images/covid3.jpg" alt="">
+						     <h5>Imagen tomada de: pixabay.com</h5>
+						</div>
+					
+					</div>
+					
+					
+			<div class="blue"> 
+			   <ul>
+	           <a href="#" id="pulsar1" >Nota 1</a>
+	           <a href="#" id="pulsar2" >Nota 2</a>
+	           <a href="#" id="pulsar3" >Nota 3</a>
+	           <a href="#" id="pulsar4" >Nota 4</a>
+			   <a href="#" id="pulsar5" >Nota 5</a>
+			   <br>
+               <a href="#" id="pulsar6">Nota 6</a>
+	           <a href="#" id="pulsar7">Nota 7</a>
+	           <a href="#" id="pulsar8">Nota 8</a>
+	           <a href="#" id="pulsar9">Nota 9</a>
+	           <a href="#" id="pulsar10">Nota 10</a>
+			   </ul>
+           </div>
+			
+				 
+           </section>
+		   
+		   
+		       </div>	
+	          </div>
+             </div>
+		   </div>
+	     </div>	
+
+	<footer>
+		<div class="footer-container">
+			<div class="footer-main">
+				<div class="footer-columna">
+					<h3>Suscríbase</h3>
+					
+					<!--<form action="correo.php" method="POST"> -->
+					  
+				     <form action="" method="" id="formulario">
+				 
+					  <input type="email" name="Sender" id="Sender" placeholder="Ingresa su correo" required>
+					  
+				      <textarea type="text" name="Message" id="Message"  placeholder="Ingresa su mensaje" required></textarea>
+					  <!--<input type="submit" value="Enviar"> -->
+					  
+					   <input type="submit" value="Enviar" id="button">
+					   	
+				    </form>
+					
+										   
+              </div>
+
+
+				<div class="footer-columna">
+					<h3>Dirección</h3>
+					<span class="fa fa-map-marker"><p>Pereira-Colombia</p></span><br>
+					<span class="fa fa-phone"> <a href="tel:+57 3117033110" style="color:white"> <p>+57-3147085246</p></a></span><br>
+					<span class="fa fa-envelope"> <a href="https://mail.google.com" target="_blank" style="color:white"><p>fronterisima12@gmail.com</p></a></span>
+				</div>
+
+				<div class="footer-columna">
+					<h3>Nosotros</h3>
+					<p>Nuestro objetivo es compartir y difundir temas musicales de artistas con gran talento de Colombia e Hispanoamérica.
+					 <br>
+                      Los invitamos a seguirnos a tráves de las redes sociales.</p>
+				</div>
+			</div>
+		</div>
+
+
+		<div class="footer-copy-redes">
+			<div class="main-copy-redes">
+				<div class="footer-copy">
+					 <h4> <span class="icon-headphones"> <a href="https://onlineradiobox.com/co/lafronterisima/?cs=co.lafronterisima" target="_blank" >Escúchanos: Radio Box App</a></span> </h4><br>  <!-- <a href="">INICIO</a></h4><br> -->
+				     <h4> <span class="icon-laptop"> <a class="copy"> Derechos &copy; Oscar Melo </a></span></h4>
+				</div>
+				<div class="footer-redes">
+					<a href="https://www.facebook.com/alma.lafronterisima" target="_blank" class="fa fa-facebook"></a>
+					<a href="https://instagram.com/lafronterisimaonlain?igshid=8ya0xso968un" target="_blank" class="fa fa-instagram"></a>
+					<a href="https://www.youtube.com/channel/UC3br-XVsFC1-vsGzco5H32w" target="_blank" class="fa fa-youtube-play"></a>
+				</div>
+			</div>
+		</div>
+		
+    </footer>
+	 
+ </article>
+ 
+ 
+ 
+  <!--  <article id='VIDEOS' class='elemento'>
+	
+	   <section class="artistas">
+	
+	
+		<div class="artistas-container">
+			<section class="artistas-item">
+				<div class="embed-res">
+				   <iframe class="embed-responsive-item" src="https://youtube.com/embed/02GlczrkIBk"></iframe>
+				   
+				    
+				</div>
+				<section class="artistas-text">
+				 
+				  <h3>Elfre Delgado</h3>
+					<h2>Vallenato</h2>
+					
+					  <p>Cantante del género vallenato, para gozar con !Sabrosura!</p>
+				</section>
+			</section>
+			
+			<section class="artistas-item">
+				<div class="embed-res">
+				   <iframe class="embed-responsive-item" src="https://youtube.com/embed/W_qrpb-u18w"></iframe>
+				    
+				</div>
+				<section class="artistas-text">
+				    <h3>Luis Alexis</h3>
+					<h2>Vallenato</h2>
+					<p>Artista Ecuatoriano del género Vallenato para el mundo. ¡Ay Ombe!</p>
+				</section>
+			</section>
+			
+			<section class="artistas-item">
+					<div class="embed-res">
+				   <iframe class="embed-responsive-item" src="https://youtube.com/embed/ubHvNue4Ma4"></iframe>
+				   
+				</div>
+				<section class="artistas-text">
+				   <h3>Rodolfo Chavijo</h3>
+					<h2>Popular</h2>
+					<p>Excelente intérprete dedicado al género norteño y popular.</p>
+				</section>
+			</section>
+		</div>
+		
+		
+		<div class="artistas-container">
+			<section class="artistas-item">
+					<div class="embed-res">
+				   <iframe class="embed-responsive-item" src="https://youtube.com/embed/rYyUEtOWIX4"></iframe>
+				   
+				</div>
+				<section class="artistas-text">
+				   <h3>Enrique Chávez</h3>
+					<h2>Variado</h2>
+					  <p>Talentoso artista y compositor Mexicano, destacándose en el género ranchero.</p>
+				</section>
+			</section>
+			
+			<section class="artistas-item">
+				<div class="embed-res">
+				   <iframe class="embed-responsive-item" src="https://youtube.com/embed/2vrBpjQjAbk"></iframe>
+				   
+				</div>
+				<section class="artistas-text">
+			       <h3>Urbano</h3>
+					<h2>Grupo Clybyer</h2>
+					<p>Un grupo de música urbana, cuyas raíces son de Putumayo.</p>
+				</section>
+			</section>
+			<section class="artistas-item">
+				<div class="embed-res">
+				   <iframe class="embed-responsive-item" src="https://youtube.com/embed/AT7HHYvbtq4"></iframe>
+				     
+				</div>
+				<section class="artistas-text">
+				   <h3>José Escarpeta</h3>
+					<h2>Popular</h2>
+					<p>Artista consagrado junto a su agrupación de música popular.</p>
+				</section>
+			</section>
+		</div>
+			
+	</section>
+   
+
+		<footer>
+		<div class="footer-container">
+			<div class="footer-main">
+				<div class="footer-columna">
+					<h3>Suscríbase</h3>
+					
+					<form action="correo.php" method="POST"> 
+					
+					 <form action="" method="" id="formulario">
+				 
+					  <input type="email" name="Sender" id="Sender" placeholder="Ingresa su correo" required>
+					  
+				      <textarea type="text" name="Message" id="Message"  placeholder="Ingresa su mensaje" required></textarea>
+					
+					  
+					   <input type="submit" value="Enviar" id="button">
+					   	
+				    </form>
+					  
+										   
+                </div>
+				
+
+				<div class="footer-columna">
+					<h3>Dirección</h3>
+					<span class="fa fa-map-marker"><p>Pereira-Colombia</p></span><br>
+					<span class="fa fa-phone"> <a href="tel:+57 3245216151" style="color:white"> <p>+57-3245216151</p></a></span><br>
+					<span class="fa fa-envelope"> <a href="https://mail.google.com" target="_blank" style="color:white"><p>fronterisima12@gmail.com</p></a></span>
+				</div>
+
+				<div class="footer-columna">
+					<h3>Nosotros</h3>
+					<p>Nuestro objetivo es compartir y difundir temas músicales de artistas con gran talento de Colombia e Hispanoamérica.
+					 <br>
+                      Los invitamos a seguirnos a tráves de las redes sociales.</p>
+				</div>
+			</div>
+		</div>
+
+		<div class="footer-copy-redes">
+			<div class="main-copy-redes">
+				<div class="footer-copy">
+					 <h4> <span class="icon-headphones"> <a href="https://onlineradiobox.com/co/lafronterisima/?cs=co.lafronterisima" target="_blank" >Escúchanos: Radio Box App</a></span> </h4><br>  <!-- <a href="">INICIO</a></h4><br> 
+				     <h4> <span class="icon-laptop"> <a class="copy"> Derechos &copy; Oscar Melo</a></span></h4>
+				</div>
+				<div class="footer-redes">
+					<a href="https://www.facebook.com/alma.lafronterisima" target="_blank" class="fa fa-facebook"></a>
+					<a href="https://instagram.com/lafronterisimaonlain?igshid=8ya0xso968un" target="_blank" class="fa fa-instagram"></a>
+					<a href="https://www.youtube.com/channel/UC3br-XVsFC1-vsGzco5H32w" target="_blank" class="fa fa-youtube-play"></a>
+				</div>
+			</div>
+		</div>
+			
+     </footer>
+
+	</article> -->
+ 
+
+ <article id='ENTREVISTA' class='elemento'>
+	
+	  <section class="entrevistas">
+	  	
+		<div class="entrevistas-container">
+			
+			<section class="entrevistas-item">
+				<div class="embed-res">
+				   <iframe class="embed-responsive-item" src="https://youtube.com/embed/58jN_PvL8EQ?html5=1&enablejsapi=1"></iframe>
+				    
+				</div>
+				<section class="entrevistas-text">
+				   <h3>Tucanes de Tijuana</h3>
+					<h2>Norteña</h2>
+					  <p>Es un honor presentar la entrevista realizada por "Dary el As de México" a Mario Quintero cantante de "Los Tucanes de Tijuana"</p>
+				</section>
+			</section>
+			
+			<section class="entrevistas-item">
+				<div class="embed-res">
+				   <iframe class="embed-responsive-item" src="https://youtube.com/embed/lkFln0-IEq8?html5=1&enablejsapi=1"></iframe>
+				   
+				</div>
+				<section class="entrevistas-text">
+				   <h3>Perla Quintanilla</h3>
+					<h2>Norteña</h2>
+					  <p>Entrevista realizada por "Dary el As de México" a la gran cantante "Perla Quintanilla"</p>
+				</section>
+			</section>
+			
+			<section class="entrevistas-item">
+				<div class="embed-res">
+				   <iframe class="embed-responsive-item" src="https://youtube.com/embed/npOWcDazxVI?html5=1&enablejsapi=1"></iframe>
+				   
+				</div>
+				<section class="entrevistas-text">
+				   <h3>León del Oriente</h3>
+					<h2>Popular</h2>
+					  <p>Entrevista "En Volando a México, por un sueño" al artista Marco Antonio Arias "El León del Oriente" </p>
+				</section>
+			</section>
+			
+			
+		</div>
+		
+		
+		
+		<div class="entrevistas-container">
+			
+			<section class="entrevistas-item">
+				<div class="embed-res">
+				   <iframe class="embed-responsive-item" src="https://youtube.com/embed/58jN_PvL8EQ?html5=1&enablejsapi=1"></iframe>
+				    
+				</div>
+				<section class="entrevistas-text">
+				   <h3>Tucanes de Tijuana</h3>
+					<h2>Norteña</h2>
+					  <p>Es un honor presentar la entrevista realizada por "Dary el As de México" a Mario Quintero cantante de "Los Tucanes de Tijuana"</p>
+				</section>
+			</section>
+			
+			<section class="entrevistas-item">
+				<div class="embed-res">
+				   <iframe class="embed-responsive-item" src="https://youtube.com/embed/lkFln0-IEq8?html5=1&enablejsapi=1"></iframe>
+				   
+				</div>
+				<section class="entrevistas-text">
+				   <h3>Perla Quintanilla</h3>
+					<h2>Norteña</h2>
+					  <p>Entrevista realizada por "Dary el As de México" a la gran cantante "Perla Quintanilla"</p>
+				</section>
+			</section>
+			
+			<section class="entrevistas-item">
+				<div class="embed-res">
+				   <iframe class="embed-responsive-item" src="https://youtube.com/embed/npOWcDazxVI?html5=1&enablejsapi=1"></iframe>
+				   
+				</div>
+				<section class="entrevistas-text">
+				   <h3>León del Oriente</h3>
+					<h2>Popular</h2>
+					  <p>Entrevista "En Volando a México, por un sueño" al artista Marco Antonio Arias "El León del Oriente" </p>
+				</section>
+			</section>
+			
+			
+		</div>
+			
+	</section>
+	
+   
+	 <footer>
+		<div class="footer-container">
+			<div class="footer-main">
+				<div class="footer-columna">
+					<h3>Suscríbase</h3>
+					
+					<!--<form action="correo.php" method="POST"> -->
+					  
+				       <form action="" method="" id="formulario">
+				 
+					   <input type="email" name="Sender" id="Sender" placeholder="Ingresa su correo" required>
+					  
+				       <textarea type="text" name="Message" id="Message"  placeholder="Ingresa su mensaje" required></textarea>
+					   <!--<input type="submit" value="Enviar"> -->
+					  
+					   <input type="submit" value="Enviar" id="button">
+					   	
+				    </form>
+										   
+                </div>
+
+				<div class="footer-columna">
+					<h3>Dirección</h3>
+					<span class="fa fa-map-marker"><p>Pereira-Colombia</p></span><br>
+					<span class="fa fa-phone"> <a href="tel:+57 3245216151" style="color:white"> <p>+57-3245216151</p></a></span><br>
+					<span class="fa fa-envelope"> <a href="https://mail.google.com" target="_blank" style="color:white"><p>fronterisima12@gmail.com</p></a></span>
+				</div>
+
+				<div class="footer-columna">
+					<h3>Nosotros</h3>
+					<p>Nuestro objetivo es compartir y difundir temas musicales de artístas con gran talento de Colombia e Hispanoamérica.
+					 <br>
+                      Los invitamos a seguirnos a través de las redes sociales.</p>
+				</div>
+			</div>
+		</div>
+
+		<div class="footer-copy-redes">
+			<div class="main-copy-redes">
+				<div class="footer-copy">
+					 <h4> <span class="icon-headphones"> <a href="https://onlineradiobox.com/co/lafronterisima/?cs=co.lafronterisima" target="_blank" >Escúchanos: Radio Box App</a></span> </h4><br>  <!-- <a href="">INICIO</a></h4><br> -->
+				     <h4> <span class="icon-laptop"> <a class="copy"> Derechos &copy; Oscar Melo</a></span></h4>
+				</div>
+				<div class="footer-redes">
+					<a href="https://www.facebook.com/alma.lafronterisima" target="_blank" class="fa fa-facebook"></a>
+					<a href="https://instagram.com/lafronterisimaonlain?igshid=8ya0xso968un" target="_blank" class="fa fa-instagram"></a>
+					<a href="https://www.youtube.com/channel/UC3br-XVsFC1-vsGzco5H32w" target="_blank" class="fa fa-youtube-play"></a>
+				</div>
+			</div>
+		</div>
+			
+
+   </footer>
+
+  </article>
+  
+  
+  
+   <article id='PRIVACIDAD' class='elemento'>
+	
+	 	  <section class="privacy">
+	
+		   <div class="privacy-container">
+			
+			
+		  <section class="privacy-text">
+		
+				
+   <h2><strong>POLÍTICA DE PRIVACIDAD</strong></h2>
+   
+<p>El presente Política de Privacidad establece los términos en que La Fronterisima 
+usa y protege la información que es proporcionada por sus usuarios al momento de 
+utilizar su sitio web. Esta compañía está comprometida con la seguridad de los datos
+ de sus usuarios. Cuando le pedimos llenar los campos de información personal
+ con la cual usted pueda ser identificado, lo hacemos asegurando que sólo
+ se empleará de acuerdo con los términos de este documento.<br>
+ 
+ Sin embargo esta Política de Privacidad puede cambiar con el tiempo o 
+ ser actualizada por lo que le recomendamos y enfatizamos revisar continuamente 
+ esta página para asegurarse que está de acuerdo con dichos cambios.</p>
+ 
+ <h2><strong>Información que es recogida</strong></h2>
+ 
+ <p>Nuestro sitio web podrá recoger información personal por ejemplo: Nombre,&nbsp;
+ información de contacto como&nbsp; su dirección de correo electrónica. </p>
+
+<h2><strong>Uso de la información recogida</strong></h2>
+
+<p>Nuestro sitio web emplea la información con el fin de proporcionar el mejor 
+servicio posible, particularmente para mantener un registro de usuarios,
+ de pedidos en caso que aplique y mejorar nuestros servicios.
+ 
+ &nbsp;Es posible que sean enviados correos electrónicos periódicamente 
+ a través de nuestro sitio con para contactar un artísta u otra 
+ información publicitaria que consideremos relevante para usted o que pueda
+ brindarle algún beneficio, estos correos electrónicos serán enviados a la
+ dirección que usted proporcione y podrán ser cancelados en cualquier momento.</p>
+ 
+ <p>La Fronterisima está altamente comprometido para cumplir con el compromiso
+ de mantener su información segura. Usamos los sistemas más avanzados y 
+ los actualizamos constantemente, para asegurarnos que no exista ningún 
+ acceso no autorizado.</p>
+ 
+ <h2><strong>Cookies</strong></h2>
+ 
+ <p>Una cookie se refiere a un fichero que es enviado con la finalidad de solicitar 
+ permiso para almacenarse en su ordenador, al aceptar dicho fichero se crea y la 
+ cookie sirve entonces para tener información respecto al tráfico web y también 
+ facilita las futuras visitas a una web recurrente. 
+ 
+ Otra función que tienen las cookies es que con ellas las web pueden reconocerte individualmente
+ y por tanto brindarte el mejor servicio personalizado de su web.</p>
+ 
+ <p>Nuestro sitio web emplea las cookies para poder identificar las páginas
+ que son visitadas y su frecuencia. Esta información es empleada únicamente para
+ análisis estadístico y después la información se elimina de forma permanente.
+ Usted puede eliminar las cookies en cualquier momento desde su ordenador. 
+ 
+ Sin embargo las cookies ayudan a proporcionar un mejor servicio de los sitios web,
+ estás no dan acceso a información de su ordenador ni de usted, 
+ a menos de que usted así lo quiera y la proporcione directamente.
+
+ Usted puede aceptar o negar el uso de cookies, sin embargo la mayoría de
+ navegadores aceptan cookies automáticamente pues sirve para tener un mejor
+ servicio web. 
+ 
+ También usted puede cambiar la configuración de su ordenador
+ para declinar las cookies.
+
+ Si se declinan es posible que no pueda utilizar algunos de nuestros servicios.</p>
+ 
+ <h2><strong>Enlaces a Terceros</strong></h2>
+ 
+ <p>Este sitio web pudiera contener enlaces a otros sitios que
+ pudieran ser de su interés. Una vez que usted de clic en estos enlaces 
+ y abandone nuestra página, ya no tenemos control sobre al sitio al que
+ es redirigido y por lo tanto no somos responsables de los 
+ ni de la protección de sus datos en esos otros sitios terceros. 
+ 
+ Dichos sitios están sujetos a sus propias políticas de privacidad
+ por lo cual es recomendable que los consulte para confirmar que 
+ usted está de acuerdo con estas.</p>
+ 
+ <h2><strong>Control de su información personal</strong></h2>
+ 
+ <p>La Fronterisima se reserva el derecho de cambiar los términos de la presente 
+ política de privacidad en cualquier momento.</p>
+
+
+
+	 </section>
+				
+		
+   </div>
+			
+
+	     </section>
+	
+   
+	 <footer>
+		<div class="footer-container">
+			<div class="footer-main">
+				<div class="footer-columna">
+					<h3>Suscríbase</h3>
+					
+					<!--<form action="correo.php" method="POST"> -->
+					  
+				      <form action="" method="" id="formulario">
+				 
+					   <input type="email" name="Sender" id="Sender" placeholder="Ingresa su correo" required>
+					   <textarea type="text" name="Message" id="Message"  placeholder="Ingresa su mensaje" required></textarea>
+					   <!--<input type="submit" value="Enviar"> -->
+					  
+					   <input type="submit" value="Enviar" id="button">
+					   	
+				    </form>
+										   
+                </div>
+
+				<div class="footer-columna">
+					<h3>Dirección</h3>
+					<span class="fa fa-map-marker"><p>Pereira-Colombia</p></span><br>
+					<span class="fa fa-phone"> <a href="tel:+57 3245216151" style="color:white"> <p>+57-3245216151</p></a></span><br>
+					<span class="fa fa-envelope"> <a href="https://mail.google.com" target="_blank" style="color:white"><p>fronterisima12@gmail.com</p></a></span>
+				</div>
+
+				<div class="footer-columna">
+					<h3>Nosotros</h3>
+					<p>Nuestro objetivo es compartir y difundir temas musicales de artístas con gran talento de Colombia e Hispanoamérica.
+					 <br>
+                      Los invitamos a seguirnos a través de las redes sociales.</p>
+				</div>
+			</div>
+		</div>
+
+		<div class="footer-copy-redes">
+			<div class="main-copy-redes">
+				<div class="footer-copy">
+					 <h4> <span class="icon-headphones"> <a href="https://onlineradiobox.com/co/lafronterisima/?cs=co.lafronterisima" target="_blank" >Escúchanos: Radio Box App</a></span> </h4><br>  <!-- <a href="">INICIO</a></h4><br> -->
+				     <h4> <span class="icon-laptop"> <a class="copy"> Derechos &copy; Oscar Melo </a></span></h4>
+				</div>
+				<div class="footer-redes">
+					<a href="https://www.facebook.com/alma.lafronterisima" target="_blank" class="fa fa-facebook"></a>
+					<a href="https://instagram.com/lafronterisimaonlain?igshid=8ya0xso968un" target="_blank" class="fa fa-instagram"></a>
+					<a href="https://www.youtube.com/channel/UC3br-XVsFC1-vsGzco5H32w" target="_blank" class="fa fa-youtube-play"></a>
+				</div>
+			</div>
+		</div>
+			
+   </footer>
+
+  </article>
+  
+ 
+  <article id='CHAT' id="chat" class='elemento'>
+	
+    <section class="chat">
+
+      <div class="chatbox">
+  
+
+		<div class="chat_titulo">
+		
+	    <div id="user-container">
+        <div hidden id="user-pic"></div>
+        <div hidden id="user-name"></div>
+         
+		 <button hidden id="sign-out">
+          Salir
+        </button>
+        <button id="sign-in">
+          <i class="fa fa-google"></i> Ingresar con Google
+        </button>
+   
+       </div>
+   
+	</div>
+
+
+ 
+        <div class="chat_area">
+           <ul class="chat">
+             <div class="supporting-text">
+                <div id="messages">
+                  <span id="mensage-filler"></span>
+                </div>
+		  
+	         </div>              
+           </ul>
+        </div>
+				
+				
+                
+     <div class="message_write">
+                   
+		 <form id="mensage-form" >
+      
+		   <input type="text" id="mensage" class="form-control"  placeholder="Escriba su mensaje...">
+          <br>
+
+			<button id="submit" type="submit">
+              Enviar
+            </button>
+			
+	     </form>
+	  
+	  
+	     <form id="image-form" >
+            <input id="subirFoto" type="file" class="form-control"  accept="image/*,capture=camera">
+            <button id="submitImage">
+              <i class="fa fa-camera"></i>
+            </button>
+         </form>
+		  
+     </div>
+	 
+	 
+  <script src="https://www.gstatic.com/firebasejs/3.6.9/firebase.js"></script>
+
+ <script>
+  // Initialize Firebase
+  var config = {
+  apiKey: "AIzaSyC_vh9wKAf_kBQmlw1RWGq7lcPu7_L4ohA",
+  authDomain: "chat-app-da539.firebaseapp.com",
+  databaseURL: "https://chat-app-da539-default-rtdb.firebaseio.com",
+  projectId: "chat-app-da539",
+  storageBucket: "chat-app-da539.appspot.com",
+  messagingSenderId: "265888765978",
+  appId: "1:265888765978:web:29af5860fed28d60c059a3"
+  };
+  firebase.initializeApp(config);
+  
+  </script>
+  
+     <script src="js/firechat.js"></script>
+	 
+	 
+    </section>
+	
+	
+	 <footer>
+		<div class="footer-container">
+			<div class="footer-main">
+				<div class="footer-columna">
+					<h3>Suscríbase</h3>
+					
+					<!--<form action="correo.php" method="POST"> -->
+					  
+				      <form action="" method="" id="formulario">
+				 
+					   <input type="email" name="Sender" id="Sender" placeholder="Ingresa su correo" required>
+					   <textarea type="text" name="Message" id="Message"  placeholder="Ingresa su mensaje" required></textarea>
+					   <!--<input type="submit" value="Enviar"> -->
+					  
+					   <input type="submit" value="Enviar" id="button">
+					   	
+				    </form>
+										   
+                </div>
+
+				<div class="footer-columna">
+					<h3>Dirección</h3>
+					<span class="fa fa-map-marker"><p>Pereira-Colombia</p></span><br>
+					<span class="fa fa-phone"> <a href="tel:+57 3245216151" style="color:white"> <p>+57-3245216151</p></a></span><br>
+					<span class="fa fa-envelope"> <a href="https://mail.google.com" target="_blank" style="color:white"><p>fronterisima12@gmail.com</p></a></span>
+				</div>
+
+				<div class="footer-columna">
+					<h3>Nosotros</h3>
+					<p>Nuestro objetivo es compartir y difundir temas musicales de artístas con gran talento de Colombia e Hispanoamérica.
+					 <br>
+                      Los invitamos a seguirnos a través de las redes sociales.</p>
+				</div>
+			</div>
+		</div>
+
+		<div class="footer-copy-redes">
+			<div class="main-copy-redes">
+				<div class="footer-copy">
+					 <h4> <span class="icon-headphones"> <a href="https://onlineradiobox.com/co/lafronterisima/?cs=co.lafronterisima" target="_blank" >Escúchanos: Radio Box App</a></span> </h4><br>  <!-- <a href="">INICIO</a></h4><br> -->
+				     <h4> <span class="icon-laptop"> <a class="copy"> Derechos &copy; Oscar Melo </a></span></h4>
+				</div>
+				<div class="footer-redes">
+					<a href="https://www.facebook.com/alma.lafronterisima" target="_blank" class="fa fa-facebook"></a>
+					<a href="https://instagram.com/lafronterisimaonlain?igshid=8ya0xso968un" target="_blank" class="fa fa-instagram"></a>
+					<a href="https://www.youtube.com/channel/UC3br-XVsFC1-vsGzco5H32w" target="_blank" class="fa fa-youtube-play"></a>
+				</div>
+			</div>
+		</div>
+			
+
+	
+	
+   </footer>
+
+  </article>
+  
+  
+  
+   <article id='ARTISTAS' class='elemento'>	
+      	
+	 <div id="especiales">
+	 
+        <section class="especial scrollflow -slide-top">   
+	   <h3 class="programas__titulo">ARTISTAS REVELACIÓN</h3>
+        <div class="contenedor">  
+            <article class="especial__columna1">
+          <img loading="lazy" src="artistas/Georgy.jpg" alt="" class="especial__img">
+                <div class="informaciones">
+                <h3 class="especial__titulo">Georgy Cañas</h3>
+				
+				  <button class="button">Popular</button>	
+					
+				
+                <p class="especial__txt">Cantante e interprete polifacetico de los diferentes generos musicales, oriundo del
+          			municipio de Chinchina - Caldas y radicado en Pereira, con una gran trayectoria en el plano musical.<br>
+				    Luego de haber integrado diferentes agrupaciones y orquestas a nivel nacional e internacional, decide
+					lanzar su carrera musical como solista con el genero popular, los invito a seguir una nueva propuesta.
+               <br><br>
+               Celular: +57 3245216151</p>
+	 				 
+			</div>
+				
+				
+            </article>
+              <article class="especial__columna2">
+                 <img loading="lazy" src="artistas/Cly&beyr.jpg" alt="" class="especial__img">
+                  <div class="informaciones">
+                <h3 class="especial__titulo">Cly&Beyr</h3>
+				
+				  <button class="button">Urbano</button>
+				  
+                <p class="especial__txt">Es una agrupacion de género urbano, conformado por jóvenes Leguizameños dispuestos a dar todo por su talento,con su gran talento musical han viajado a diferentes de Colombia y Ecuador. Ha participado en eventos como ferias,
+				 carnavales, festivales y encuentros culturales, a estado lanzando diferentes sencillos: 
+				 "Leguízamo" un tema músical homenaje a una tierra de culturas en el sur del país.
+                <br><br>
+                Celular: +57 3245216151
+                </p>
+                
+				</div>
+				
+            </article>
+            
+              <article class="especial__columna3">
+                 <img loading="lazy" src="artistas/Pentagrama Mix.jpg" alt="" class="especial__img">
+                 <div class="informaciones">
+                 <h3 class="especial__titulo">Pentagrama Mix</h3>
+				 
+				   <button class="button">Tropical</button>
+				   
+                 <p class="especial__txt">Agrupación de género Tropical, constituida por jóvenes Leguizameños dispuestos a dar todo por su talento, reconocida a nivel
+                 Departamental e Internacional, con su gran talento musical a recorrido diferentes partes de Colombia y Ecuador. Ha participado en eventos como 
+				 ferias, carnavales, festivales y encuentros culturales. En su carreta musical ha lanzando diferentes sencillos entre ellos uno de los más vistos es 
+				 "LEGUIZAMO" este hace homenaje a una tierra de culturas en el sur del pais.
+                 <br><br>
+                 Celular: +57 3245216151</p>
+                      
+		     </div>
+				  
+            </article>
+            </div>
+        </section>
+		</div>
+		
+		
+		 <section class="especial scrollflow -slide-top">   
+	       <h3 class="programas__titulo">ARTÍSTAS VARIADOS</h3>
+        <div class="contenedor">  
+            <article class="especial__columna1">
+          <img loading="lazy" src="artistas/latin show.jpg" alt="" class="especial__img">
+                <div class="informaciones">
+                <h3 class="especial__titulo">Pedro Vidal-Latín Show</h3>
+				
+				  <button class="button">Tropical</button>	
+						
+                <p class="especial__txt"> Presentación Musical: Reinado Nacional De la Belleza AFRO, Carnaval de pasto, Festival Vallenato,
+				Feria de las Flores, Feria de Cali, La feria de Manizales, entre otros.
+                A nivel internacional, el artista show Central del festival más importante del mundo de los Colombianos,
+				Festival que se da en la ciudad de New york "El Festival de Flushing" festivales en Washington DC. Miami Fl., 
+				artista invitado en mis mundos internacionales y en el reinado de belleza de Bolivia.
+				Diferentes festivales en Ecuador y Centroamérica.
+				
+                 <br><br>
+                Celular: +57 3245216151
+                </p>
+				 
+				</div>
+				
+            </article>
+			
+              <article class="especial__columna2">
+                <img loading="lazy" src="artistas/fantasticos vallenato.jpg" alt="" class="especial__img">
+                 <div class="informaciones">
+                <h3 class="especial__titulo">Huberth Montero</h3>
+				
+				  <button class="button">Vallenato</button>
+          	  
+                <p class="especial__txt">Es un orgullo presentar a Huberth Montero y Los Fantásticos del Vallenato (Género Vallenato)
+                 Agrupación con más de 26 años de vida artística y con éxitos nacionales e internacionales como Te Extraño, 
+				 Dime Soledad, Porque Te Vas Y Solamente Tu entre otros.
+
+                 PUESTA EN TARIMA
+                 Voz Líder, Acordeón, dos (2) Coros, Caja, Guacharaca, Congas, Timbal, Bajo, Guitarra, Piano, para un total 
+				 de once (11) integrantes en escena.
+                 La presentación de "Huberth Montero y los Fantásticos del Vallenato”.
+				 
+                  <br><br>
+                Celular: +57 3245216151
+                </p>
+				  
+				  </div>
+				  
+            </article>
+            
+              <article class="especial__columna3">
+               <img loading="lazy" src="artistas/genesis orquesta.jpg" alt="" class="especial__img">
+                  <div class="informaciones">
+                <h3 class="especial__titulo">Génesis Internacional</h3>
+				
+				  <button class="button">Tropical</button>
+				  
+                <p class="especial__txt">Es una agrupacion creada en el 2010 en la ciudad de San Juan de Pasto, impulsada con
+				el propósito de exaltar el talento artístico femenino complementado con el empuje, ahínco y musicalidad masculinos. 
+				Su propuesta musical es variada e influenciada por el género tropical fiestero y Tecnocumbiero por excelencia, el son sureño
+  				y ritmos propios de la región nariñense y más adelante profundizará e incursionará en géneros musicales variados y caribeños
+                de la costa colombiana, el merengue, y la salsa.
+                
+				 <br><br>
+                Celular: +57 3245216151
+                </p>   
+				
+				</div>
+				
+               </article>
+			   
+            </div>
+        </section>
+		
+		
+		<section class="especial scrollflow -slide-top">   
+	       <h3 class="programas__titulo">ARTISTAS POPULARES </h3>
+        <div class="contenedor">  
+            <article class="especial__columna1">
+          <img loading="lazy" src="artistas/indomables.jpg" alt="" class="especial__img">
+                <div class="informaciones">
+                <h3 class="especial__titulo">Las Indomables</h3>
+				
+				  <button class="button">Tecno-Carrilera</button>
+				  
+                <p class="especial__txt">Tenemos el gusto de presentarles a "Las Indomables" (Género Tecno-Carrilera) con el mejor repertorio de éxitos 
+				del género, han alternado con varios artístas de cartelera en ferias y fiestas. Con su primer éxito y mp3 sonando en 
+				varios Departamentos de Colombia con su tema Popurrí de las Indomables.
+				
+				Las Indomables están conformadas por una delantera de (2) voces femeninas y (2) bailarinas, (5) músicos con sus respectivos
+				instrumentos: Acordeón, batería, bajo, bajo sexto y teclado, para un total de nueve integrantes en escena.
+               
+			     <br><br>
+                Celular: +57 3245216151
+                </p>
+				
+				</div>
+				
+            </article>
+			
+              <article class="especial__columna2">
+                <img loading="lazy" src="artistas/federales.jpg" alt="" class="especial__img">
+                  <div class="informaciones">
+                <h3 class="especial__titulo">Los Federales</h3>
+				
+			      <button class="button">Norteña</button>
+				
+				   <p class="especial__txt">Con más de 18 años de carrera musical "Los Federales de Colombia" son reconocidos
+				   por ser grandes exponentes de la música norteña, de banda, ranchera y popular. Son ganadores del "Sexto Gran Cuncurso de Temas
+				   Inéditos en Sinaloa Radio TV, con Lupita Villa en México.
+				   
+				   Tienen un repertorio de más temas grabados. Son reconocidos en Antioquía por exitos como: Vivo como un rey, A mi pueblo querido,
+				   Un amor de calle entre otros.
+				
+				  <br><br>
+				
+                Celular: +57 3245216151
+                </p>
+				
+				</div>
+				
+            </article>
+            
+              <article class="especial__columna3">
+                <img loading="lazy" src="artistas/Yo me llamo Alzate.jpg" alt="" class="especial__img">
+                  <div class="informaciones">
+                <h3 class="especial__titulo">Yo me llamo Alzate</h3>
+				
+				  <button class="button">Popular</button>
+				  
+                <p class="especial__txt">Es un gusto presentar a un artista como "Xavier El Gato blanco", artista principiante
+				en "Yo me llamo" interprentando a Alzate y catalogado como el "Mil Voces" por imitar artístas como Alzate, Yeison
+				Jiménez, Giovany Ayala, Jhon Alex Castaño, Jessi Uribe, Fernano Burbano, Jhony Rivera, Alexis Escobar entre otros.<br>
+				
+				La agrupación "Xavier El Gato Blanco" está integrada por: Voz oficial y un marco de (2) trompetas, (1) bajo, (1) piano o acordeón, (1) vihuela, (2) requintos,
+				y (1) batería, total de (8) integrantes en escena.
+               
+			     <br><br>
+                Celular: +57 3245216151
+                </p>
+				
+				</div>
+				
+            </article>
+			
+          </section>
+   
+
+		<footer>
+		<div class="footer-container">
+			<div class="footer-main">
+				<div class="footer-columna">
+					<h3>Suscríbase</h3>
+					
+					<!--<form action="correo.php" method="POST"> -->
+					  <form action="" method="" id="formulario">
+				 
+					  <input type="email" name="Sender" id="Sender" placeholder="Ingresa su correo" required>
+					  
+				      <textarea type="text" name="Message" id="Message"  placeholder="Ingresa su mensaje" required></textarea>
+					  <!--<input type="submit" value="Enviar"> -->
+					  
+					   <input type="submit" value="Enviar" id="button">
+					   	
+				    </form>
+										   
+                </div>
+
+				<div class="footer-columna">
+					<h3>Dirección</h3>
+					<span class="fa fa-map-marker"><p>Pereira-Colombia</p></span><br>
+					<span class="fa fa-phone"> <a href="tel:+57 3245216151" style="color:white"> <p>+57-3245216151</p></a></span><br>
+					<span class="fa fa-envelope"> <a href="https://mail.google.com" target="_blank" style="color:white"><p>fronterisima12@gmail.com</p></a></span>
+				</div>
+
+				<div class="footer-columna">
+					<h3>Nosotros</h3>
+					<p>Nuestro objetivo es compartir y difundir temas musicales de artistas con gran talento de Colombia e Hispanoamérica.
+					 <br>
+                      Los invitamos a seguirnos a través de las redes sociales.</p>
+				</div>
+			</div>
+		</div>
+
+		<div class="footer-copy-redes">
+			<div class="main-copy-redes">
+				<div class="footer-copy">
+					 <h4> <span class="icon-headphones"> <a href="https://onlineradiobox.com/co/lafronterisima/?cs=co.lafronterisima" target="_blank" >Escúchanos: Radio Box App</a></span> </h4>  <!-- <a href="">INICIO</a></h4><br> --> <br>
+
+				     <h4> <span class="icon-laptop"> <a class="copy"> Derechos &copy; Oscar Melo </a></span></h4>
+				</div>
+				<div class="footer-redes">
+					<a href="https://www.facebook.com/alma.lafronterisima" target="_blank" class="fa fa-facebook"></a>
+					<a href="https://instagram.com/lafronterisimaonlain?igshid=8ya0xso968un" target="_blank" class="fa fa-instagram"></a>
+					<a href="https://www.youtube.com/channel/UC3br-XVsFC1-vsGzco5H32w" target="_blank" class="fa fa-youtube-play"></a>
+				</div>
+				
+				
+			</div>
+			
+		</div>
+		
+
+      </footer>
+	 
+	
+	 </article>
+	 
+	 
+	 
+	 <div class="container-footers">
+       <div class="sticky_footer"> 
+	
+	    <div id="saludo">
+
+		    <img src="imagenes/diadema.png">
+           
+         <div id="txtsaludo"></div>	
+        
+		</div> 
+
+ 	  
+	   
+	  <body onload="mostrarSaludo()">  
+
+	   <script type="text/javascript">
+
+        function mostrarSaludo(){
+
+          fecha = new Date(); 
+          hora = fecha.getHours();
+
+           if(hora >= 0 && hora < 8){
+            texto = "Sintonía Musical";
+			
+          }
+          
+  
+           if(hora >= 8 && hora < 12){
+            texto = "Variedad Ilimitada";
+			
+          }      
+          
+		   if(hora >= 12 && hora < 18){
+            texto = "Tarde alternativa";
+			
+          }
+
+          if(hora >= 18 && hora < 23){
+            texto = "Impacto musical";
+			
+          }
+	
+	
+          document.getElementById('txtsaludo').innerHTML = texto;
+
+        }
+
+      </script>
+	  
+	 
+          <div id="player">
+               
+         	 
+              <a id="button-share" class="icon-share2"></a>
+				     
+                  <div id="song" class="song"><marque scrollamount="6" behavior="scroll" direction="none"><span id="current-track">La Fronterísima</span></marquee></div>
+                
+                <div id="animation">
+				   <a href="https://www.facebook.com/lafronterisima" target="_blank">
+		           <img src="imagenes/logo.png"></a>
+                </div> 
+				
+				
+           </div>
+          
+     
+ 	
+          </div>	
+	
+        </div>
+	   
+	  </div> 
+
+
+       <div class="scrollup">
+			<a href="#"><i class="fa fa-chevron-up"></i></a>
+		</div>
+	 
+	 
+	 
+	
+  </section>
+  
+
+   </main> 
+
+ 
+  <script src="js/ajax.js"></script>
+  <script src="js/pulsar.js"></script>
+  <script src="js/audio.js"></script>
+  <script src="js/menu.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/share.js"></script>
+
+  <script src="js/header.js"></script>
+  <script src="js/script.js"></script>
+
+  <script src="js/imagesslider01.js"></script>
+  <script src="js/imagesslider1.js"></script>
+  <script src="js/imagesslider2.js"></script>
+  <script src="js/imagesslider3.js"></script>
+  <script src="js/prueba.js"></script>	
+  
+  <script src="js/form_send.js"></script>	
+ 
+    
+  <script src="https://w.soundcloud.com/player/api.js" type="text/javascript"></script>
+  <script src="regist_serviceWorker.js"></script> 
+   
+   <script>
+      $(function(){
+       setTimeout(
+        ()=>{
+            $(".cargando").hide(); 
+         } , 10
+     );
+     });
+    </script>
+
+
+   
+	
+   
+ </body>
+
+</html>
