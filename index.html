@@ -48,6 +48,8 @@
     <script src="js/app.js"></script>
   
 	<script src="js/iframe.js"></script>	
+	
+	<script src="js/saludo.js"></script>
 
 	<script src="http://api.html5media.info/1.1.5/html5media.min.js"></script>
 
@@ -102,12 +104,14 @@
     <header id="header">
 	
     <nav class="menu">	
-	
-	  <div class="logo-box">
+ 
+       <div class="logo-box">
 
        <h1 class="logo"><span></span></h1> 
        <span class="btn-menu"><i class="icon-menu"></i></span>
      </div>
+	 
+	    <div id="txtsaludo"></div>	
 	 
 	   <div id="radio">
 	      <audio id="track">
@@ -117,7 +121,10 @@
 		  <div id="ppbutton">
 		     <div id="play-pause" class="play"></div>
 		 </div>
+		 
+		 
       </div>
+	  
 	  
 	 <script>
 	    
@@ -141,6 +148,14 @@
         controlBtn.className = "play";
      });
     </script>
+	
+	
+	
+
+	   
+
+       <span class="btn-menu"><i class="icon-menu"></i></span>
+     </div>
 	  
 	 
 	<div class="nav-menu" class="menu-fixed">
@@ -209,7 +224,7 @@
 	 
 		<div class="slide active">
 			<div class="txt">
-				<h1>Musica 24 horas</h1>
+				 <div id="txtsaludo"></div>
 			</div>
 			<img src="imagenes/1.jpg">
 			
@@ -2380,7 +2395,7 @@ servicio posible, particularmente para mantener un registro de usuarios,
 
 		    <img src="imagenes/diadema.png">
            
-         <div id="txtsaludo"></div>	
+       
         
 		</div> 
 
@@ -2388,42 +2403,7 @@ servicio posible, particularmente para mantener un registro de usuarios,
 	   
 	  <body onload="mostrarSaludo()">  
 
-	   <script type="text/javascript">
-
-        function mostrarSaludo(){
-
-          fecha = new Date(); 
-          hora = fecha.getHours();
-
-           if(hora >= 0 && hora < 8){
-            texto = "Sintonía Musical";
-			
-          }
-          
-  
-           if(hora >= 8 && hora < 12){
-            texto = "Variedad Ilimitada";
-			
-          }      
-          
-		   if(hora >= 12 && hora < 18){
-            texto = "Tarde alternativa";
-			
-          }
-
-          if(hora >= 18 && hora < 23){
-            texto = "Impacto musical";
-			
-          }
-	
-	
-          document.getElementById('txtsaludo').innerHTML = texto;
-
-        }
-
-      </script>
-	  
-	 
+ 
           <div id="player">
                
          	 
