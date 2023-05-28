@@ -156,8 +156,7 @@ main {
 .logo-box{
 
   width:auto;
-
- display:inline-block;
+ display:inline-block; ;
 
 }
 
@@ -169,7 +168,7 @@ main {
 
     font-size: var(--title);
 
-    font-weight: 400;
+    font-weight: 0;
 
     color:var(--black);
 
@@ -3300,15 +3299,15 @@ article .elemento {
 
 	text-align: center;
 
-	font-size:18px;
+	font-size:20px;
 
 	color:white; 
 
-    width:200px;				
+    width:auto;				
 
-	margin-left:55%;											
+	margin-left:70px;											
 
-	top:15px;	
+	margin-top:5px;	
 
 }
 
@@ -3430,11 +3429,9 @@ article .elemento {
 
 	color:white;						
 
-	left:130px;
+	top:12px;
 
-	top:3px;
-
-    margin:5px;
+    margin-left:35%;
 
     width:350px;
 
@@ -3555,23 +3552,20 @@ article .elemento {
 
 }
 
-
-
 #txtsaludo{
-
-	position: absolute;	
 
 	text-align: center;
 
-	font-size:18px;
+	font-size:20px;
 
 	color:white; 
 
-    width:200px;				
+    width:;				
 
-	margin-left:55%;											
+	margin-left:;											
 
-	top:15px;	
+	margin-top:5px;	
+
 
 }
 
@@ -3692,7 +3686,7 @@ article .elemento {
 
 	color:white;						
 
-	left:130px;
+	margin-left:30%;
 
 	top:3px;
 
@@ -3809,15 +3803,16 @@ article .elemento {
 
 	text-align: center;
 
-	font-size:18px;
+	font-size:20px;
 
 	color:white; 
 
-    width:200px;				
+    width:;				
 
-	margin-left:55%;											
+	margin-left:;											
 
-	top:15px;	
+	margin-top:3px;	
+
 
 }
 
@@ -3930,9 +3925,9 @@ article .elemento {
 
 	color:white;						
 
-	left:130px;
+	left:30%;
 
-	top:3px;
+	top:8px;
 
     margin:5px;
 
@@ -4046,7 +4041,7 @@ article .elemento {
 
 #txtsaludo{
 
-	position: absolute;	
+    position: absolute;	
 
 	text-align: center;
 
@@ -4054,11 +4049,12 @@ article .elemento {
 
 	color:white; 
 
-    width:200px;				
+    width:;				
 
-	margin-left:50%;											
+	margin-left:;											
 
-	top:15px;	
+	margin-top:3px;	
+	
 
 }
 
@@ -4171,7 +4167,7 @@ article .elemento {
 
 	color:white;						
 
-	left:130px;
+	left:35%;
 
 	top:3px;
 
@@ -4285,17 +4281,20 @@ article .elemento {
 
 #txtsaludo{
 
-	text-align: center;
+	position: absolute;	
 
-	top:12px;
+	text-align: center;
 
 	font-size:18px;
 
 	color:white; 
 
-	display:inline-block;
+    width:;				
 
-	margin-left:10px;	
+	margin-left:;											
+
+	margin-top:3px;	
+
 
 }
 
@@ -4404,7 +4403,7 @@ article .elemento {
 
 	color:white;						
 
-	left:130px;
+	left:30%;
 
 	top:7px;
 
@@ -4517,19 +4516,20 @@ article .elemento {
   
 #txtsaludo{
 
-	margin-top:-8px;
+    position: absolute;	
 
-	font-size:16px;
+	text-align: center;
+
+	font-size:18px;
 
 	color:white; 
 
-	margin-left:35%;
+    width:;				
 
-    display:flex;
+	margin-left:;											
 
-	justify-content: center;
+	margin-top:3px;	
 
-    flex-wrap: wrap;
 
 }
 
@@ -4641,9 +4641,9 @@ article .elemento {
 
 	color:white;						
 
-	left:28%;
+	left:25%;
 
-	top:18px;
+	top:8px;
 
     margin:5px;
 
@@ -4758,21 +4758,20 @@ article .elemento {
 
 #txtsaludo{
 
-	
+	position: absolute;	
 
-	margin-top:-8px;
+	text-align: center;
 
-	font-size:16px;
+	font-size:18px;
 
 	color:white; 
 
-	margin-left:30%;
+    width:;				
 
-    display:flex;
+	margin-left:;											
 
-	justify-content: center;
+	margin-top:3px;	
 
-    flex-wrap: wrap;	
 
 }
 
@@ -4893,7 +4892,7 @@ article .elemento {
 
 	left: 20%;
 
-	top:18px;
+	top:8px;
 
     margin:5px;
 
@@ -5005,19 +5004,20 @@ article .elemento {
   
 #txtsaludo{
 
-	margin-top:-8px;
+	position: absolute;	
 
-	font-size:16px;
+	text-align: center;
+
+	font-size:18px;
 
 	color:white; 
 
-	margin-left:30%;
+    width:;				
 
-    display:flex;
+	margin-left:;											
 
-	justify-content: center;
+	margin-top:5px;	
 
-    flex-wrap: wrap;
 
 }
 
@@ -5132,9 +5132,9 @@ article .elemento {
 
 	color:white;						
 
-	left:30%;
+	left:25%;
 
-	top:18px;
+	top:8px;
 
     margin:5px;
 
@@ -5146,7 +5146,7 @@ article .elemento {
 
     text-transform: capitalize;
 
-    font-size:15px;
+    font-size:18px;
 
 	text-align:center;
 
@@ -5250,19 +5250,21 @@ article .elemento {
 
 #txtsaludo{
 
-	margin-top:-8px;
+    position: absolute;	
+
+	text-align: center;
 
 	font-size:16px;
 
 	color:white; 
 
-	margin-left:25%;
+    width:;				
 
-    display:flex;
+	margin-left:;											
 
-	justify-content: center;
+	margin-top:3px;	
+	
 
-    flex-wrap: wrap;
 
 }
 
@@ -5377,8 +5379,8 @@ article .elemento {
 
 	left:22.5%;
 
-	top:18px;
-
+	top:8px; 
+	
     margin:5px;
 
     width:200px;
@@ -5492,19 +5494,20 @@ article .elemento {
 
 #txtsaludo{
 
-	margin-top:-8px;
+	position: absolute;	
+
+	text-align: center;
 
 	font-size:16px;
 
 	color:white; 
 
-	margin-left:25%;
+    width:;				
 
-    display:flex;
+	margin-left:;											
 
-	justify-content: center;
+	margin-top:5px;	
 
-    flex-wrap: wrap;
 
 }
 
@@ -5619,7 +5622,7 @@ article .elemento {
 
 	left:22.5%;
 
-	top:18px;
+	top:8px; 
 
     margin:5px;
 
