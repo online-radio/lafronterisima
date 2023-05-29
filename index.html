@@ -147,7 +147,6 @@
     </script>
 	
 
-	   <div id="txtsaludo" ></div>	
 
      </div>
 	  
@@ -218,8 +217,9 @@
 	 
 		<div class="slide active">
 			<div class="txt">
-				 <div id="txtsaludo"></div>
+				
 			</div>
+			
 			<img src="imagenes/1.jpg">
 			
 			
@@ -2385,13 +2385,59 @@ servicio posible, particularmente para mantener un registro de usuarios,
 	 <div class="container-footers">
        <div class="sticky_footer"> 
 	
-	    <div id="saludo">
+	       <div id="saludo">
 
 		    <img src="imagenes/diadema.png">
            
+         <div id="txtsaludo"></div>	
+        
 		</div> 
 
+ 	  
+	   
 	  <body onload="mostrarSaludo()">  
+
+	   <script type="text/javascript">
+
+        function mostrarSaludo(){
+
+          fecha = new Date(); 
+          hora = fecha.getHours();
+
+           if(hora >= 0 && hora < 8){
+            texto = "Amanecer Musical";
+			
+          }
+          
+  
+           if(hora >= 8 && hora < 10){
+            texto = "Recarga Ilimitada";
+			
+          }      
+          
+		  
+		   if(hora >= 10 && hora < 12){
+            texto = "Sintonía musical";
+		
+          }
+		  
+		   if(hora >= 12 && hora < 18){
+            texto = "Tarde alternativa";
+			
+          }
+
+          if(hora >= 18 && hora < 23){
+            texto = "Impacto musical";
+			
+          }
+	
+	
+          document.getElementById('txtsaludo').innerHTML = texto;
+
+        }
+
+      </script>
+	  
 
  
           <div id="player">
