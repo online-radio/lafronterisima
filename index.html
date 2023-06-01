@@ -2385,7 +2385,7 @@ servicio posible, particularmente para mantener un registro de usuarios,
 	 <div class="container-footers">
        <div class="sticky_footer"> 
 	
-	       <div id="saludo">
+	            <div id="saludo">
 
 		    <img src="imagenes/diadema.png">
            
@@ -2395,46 +2395,49 @@ servicio posible, particularmente para mantener un registro de usuarios,
 
  	  
 	   
-	  <body onload="mostrarSaludo()">  
 
-	   <script type="text/javascript">
+	   <script>
 
-        function mostrarSaludo(){
-
+       function saludo(){
+   
           fecha = new Date(); 
           hora = fecha.getHours();
 
            if(hora >= 0 && hora < 8){
-            texto = "Amanecer Musical";
+            pSaludo.textContent = "Amanecer Musical";
 			
           }
           
   
            if(hora >= 8 && hora < 10){
-            texto = "Recarga Ilimitada";
+            pSaludo.textContent = "Recarga Ilimitada";
 			
           }      
           
 		  
 		   if(hora >= 10 && hora < 12){
-            texto = "Sintonía musical";
+            pSaludo.textContent = "Sintonía musical";
 		
           }
 		  
 		   if(hora >= 12 && hora < 18){
-            texto = "Tarde alternativa";
+            pSaludo.textContent = "Tarde alternativa";
 			
           }
 
           if(hora >= 18 && hora < 23){
-            texto = "Impacto musical";
+             pSaludo.textContent = "Impacto Musical";
 			
           }
-	
-	
-          document.getElementById('txtsaludo').innerHTML = texto;
+		  
+    
+   
+}
 
-        }
+   var pSaludo = document.getElementById("txtsaludo");
+
+   setInterval(saludo);
+
 
       </script>
 	  
