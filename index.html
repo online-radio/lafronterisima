@@ -2385,11 +2385,11 @@ servicio posible, particularmente para mantener un registro de usuarios,
 	 <div class="container-footers">
        <div class="sticky_footer"> 
 	
-	            <div id="saludo">
+	      <div class="saludo">
 
-		    <img src="imagenes/diadema.png">
+		     <img id="tiempo">
            
-         <div id="txtsaludo"></div>	
+          <div id="txtsaludo"></div>	
         
 		</div> 
 
@@ -2404,39 +2404,30 @@ servicio posible, particularmente para mantener un registro de usuarios,
           hora = fecha.getHours();
 
            if(hora >= 0 && hora < 8){
-            pSaludo.textContent = "Amanecer Musical";
-			
+            pSaludo.textContent = "Amanecer parrandero";
+			pimg.src="imagenes/dia.png";
           }
           
   
-           if(hora >= 8 && hora < 10){
-            pSaludo.textContent = "Recarga Ilimitada";
-			
+           if(hora >= 8 && hora < 12){
+            pSaludo.textContent = "Notas musicales";
+			pimg.src="imagenes/microfono.png";
           }      
-          
-		  
-		   if(hora >= 10 && hora < 12){
-            pSaludo.textContent = "Sintonía musical";
-		
-          }
-		  
+            
 		   if(hora >= 12 && hora < 18){
-            pSaludo.textContent = "Tarde alternativa";
-			
-          }
-
-          if(hora >= 18 && hora < 23){
-             pSaludo.textContent = "Impacto Musical";
-			
+            pSaludo.textContent = "La Revancha";
+		    pimg.src="imagenes/tarde.png";
           }
 		  
-    
-   
-}
+          if(hora >= 18 && hora < 24){
+             pSaludo.textContent = "Anochecer recargado ";
+		     pimg.src="imagenes/noche.png"; 
+          }	  
+       }
 
+   var pimg = document.getElementById("tiempo");
    var pSaludo = document.getElementById("txtsaludo");
-
-   setInterval(saludo);
+   setInterval(saludo,1000);
 
 
       </script>
@@ -2511,11 +2502,7 @@ servicio posible, particularmente para mantener un registro de usuarios,
      );
      });
     </script>
-
-
-   
-	
-   
+ 
  </body>
 
 </html>
