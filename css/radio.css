@@ -3776,7 +3776,7 @@ article .elemento {
 
 	font-size:20px;
 
-	color:lime; 
+	color:; 
 
 }
 
@@ -11734,7 +11734,6 @@ article .cards_radio .parrafo{
  /*Section noticias*/
 
 	 
-
 .notas_page{
 
   width:98%;
@@ -12012,9 +12011,6 @@ line-height:30px;
   color:red;
 
 }
-
-
-
 
 
  .main-contain{
@@ -12750,18 +12746,6 @@ section .informes h2{
 	text-align:center;
 
 }
-
-
-
-
-
-
-
-
-
-/* ============ Media Query ============ */
-
-
 
 
 
@@ -14096,9 +14080,6 @@ section .informes h2{
 }	 
 
 	 
-
-	
-
 
 
 /*contenedor */
