@@ -32549,7 +32549,16 @@ section#blog{
 	
 	
 /*Chat firebase*/
-	
+
+ .maps{
+    width:70%;
+    height:60vh;
+	margin:0 auto;
+	display:flex;
+	margin-top:15px;
+    background-color:;
+ }
+ 
 .chat{
 	min-height:100vh;
 }
@@ -32756,7 +32765,15 @@ section#blog{
 
 
 @media (min-width:691px) and (max-width:1023px){
-    
+  .maps{
+    width:80%;
+    height:60vh;
+	margin:0 auto;
+	display:flex;
+	margin-top:15px;
+    background-color:;
+  }
+  
   .chatbox{
 	width:80%;
 	height:560px;
@@ -32952,7 +32969,15 @@ section#blog{
 }
 
 @media (min-width:480px) and (max-width:690px){
-    
+  .maps{
+    width:95%;
+    height:60vh;
+	margin:0 auto;
+	display:flex;
+	margin-top:15px;
+    background-color:;
+  }
+	  
  .chatbox{
 	width:95%;
 	height:550px;
@@ -33155,7 +33180,15 @@ section#blog{
 /* Responsive a 346 a 479px*/
 		  
 @media (min-width:346px) and (max-width:479px){
-    
+  .maps{
+    width:98%;
+    height:60vh;
+	margin:0 auto;
+	display:flex;
+	margin-top:15px;
+    background-color:;
+  }
+  
    .chatbox{
 	width:98%;
 	height:550px;
@@ -33359,7 +33392,15 @@ section#blog{
 /* Responsive a 320px a 345*/
 		  
 @media (min-width:320px) and (max-width:345px){
-    
+   .maps{
+    width:98%;
+    height:60vh;
+	margin:0 auto;
+	display:flex;
+	margin-top:15px;
+    background-color:;
+ }
+ 
    .chatbox{
 	width:98%;
 	height:550px;
@@ -33559,3 +33600,4 @@ section#blog{
   display: none;
   }
 }
+
