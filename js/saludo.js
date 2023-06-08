@@ -1,5 +1,4 @@
 
-
        function saludo(){
    
           fecha = new Date(); 
@@ -22,7 +21,7 @@
           }
 		  
           if(hora >= 18 && hora < 24){
-             pSaludo.textContent = "Anocher musical";
+             pSaludo.textContent = "Anochecer musical";
 		     img.src="imagenes/noche.png"; 
           }	  
        }
