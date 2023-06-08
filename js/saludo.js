@@ -1,4 +1,5 @@
 
+
        function saludo(){
    
           fecha = new Date(); 
@@ -21,7 +22,7 @@
           }
 		  
           if(hora >= 18 && hora < 24){
-             pSaludo.textContent = "Anochecer musical";
+             pSaludo.textContent = "Anocher musical";
 		     img.src="imagenes/noche.png"; 
           }	  
        }
@@ -29,4 +30,11 @@
    var img = document.getElementById("tiempo");
    var pSaludo = document.getElementById("txtsaludo");
    setInterval(saludo,1000);
+   
+   
+   
+     $("#animation").on('click', function(e){
+        e.preventDefault();
+        $(".slide_content").slideToggle('fast');
+  });
 
