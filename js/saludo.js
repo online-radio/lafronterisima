@@ -6,13 +6,13 @@
           hora = fecha.getHours();
 
            if(hora >= 0 && hora < 8){
-            pSaludo.textContent = "Amanecer musical";
+            pSaludo.textContent = "Amanecer recargado";
 			img.src="imagenes/dia.png";
           }
           
   
            if(hora >= 8 && hora < 12){
-            pSaludo.textContent = "Mega recarga";
+            pSaludo.textContent = "Mega populares";
 			img.src="imagenes/microfono.png";
           }      
             
@@ -22,7 +22,7 @@
           }
 		  
           if(hora >= 18 && hora < 24){
-             pSaludo.textContent = "Mix parrandero";
+             pSaludo.textContent = "Anocher musical";
 		     img.src="imagenes/noche.png"; 
           }	  
        }
