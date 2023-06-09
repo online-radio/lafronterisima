@@ -22,7 +22,7 @@
           }
 		  
           if(hora >= 18 && hora < 24){
-             pSaludo.textContent = "Anocher musical";
+             pSaludo.textContent = "Anochecer musical";
 		     img.src="imagenes/noche.png"; 
           }	  
        }
@@ -32,9 +32,13 @@
    setInterval(saludo,1000);
    
    
-   
-     $("#animation").on('click', function(e){
-        e.preventDefault();
-        $(".slide_content").slideToggle('fast');
-  });
+$('document').ready(function(){
 
+ $("#animation").on('click', function(e){
+        e.preventDefault();
+        $(".panel").slideToggle('fast');
+      });
+   });
+
+  
+  
