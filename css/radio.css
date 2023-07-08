@@ -383,7 +383,7 @@ logo-box{
   .menu  .list-container .lists{
      position: absolute;
      vertical-align: middle;
-     background:url(../imagenes/2.jpg);
+     background:url(../imagenes/arlex.jpg);
      width: 100%;
      height: 100vh;
      display: flex;
@@ -671,7 +671,7 @@ logo-box{
   .menu  .list-container .lists{
      position: absolute;
      vertical-align: middle;
-     background:url(../imagenes/2.jpg);
+     background:url(../imagenes/arlex.jpg);
      width: 100%;
      height: 100vh;
      display: flex;
@@ -962,7 +962,7 @@ logo-box{
   .menu  .list-container .lists{
      position: absolute;
      vertical-align: middle;
-     background:url(../imagenes/2.jpg);
+     background:url(../imagenes/arlex.jpg);
      width: 100%;
      height: 100vh;
      display: flex;
@@ -1245,7 +1245,7 @@ logo-box{
   .menu .list-container .lists{
      position: absolute;
      vertical-align: middle;
-     background:url(../imagenes/2.jpg);
+     background:url(../imagenes/arlex.jpg);
      width: 100%;
      height: 100vh;
      display: flex;
@@ -5260,68 +5260,65 @@ article .elemento {
 }
 
 
-.video-responsive iframe{
-
-   position: absolute;
-
-   top:-15px;
-
-   left: 0;
-
-   width: 100%;
-
-   height:95%;
-
-}
-
-.publicidades{
-
-	width:80%;
-
-	height:250px;
-
-	margin:0 auto;
-
-	margin-top:20px;
-
-    display: flex;
-
-    justify-content: center;
-
-    flex-wrap: wrap;
-
-	background-color:black;	
-
-	margin-bottom:5px;
-	
-	z-index:-1;	
-
-}
-
-
-.adsbygoogle{
-
-	width:90%;
-
-	height:230px;
-
-	margin:0 auto;
-
-	margin-top:8px;
-
-    display: flex;
-
-    justify-content: center;
-
-    flex-wrap: wrap;
-
-	background-color:;	
-
-	margin-bottom:5px;
-	
-	z-index:0;
-
-}
+  .video-slider {
+		width: 100%;
+		height:100%;
+		background:;
+		position: relative;
+	    margin-top:0;
+		overflow: hidden; 
+		z-index:1;
+	}
+	.slides {
+		position: absolute;
+		top: 0;
+		left: 100%;
+		height: 100%;
+		width: 100%;
+		text-align: center;
+		overflow: hidden;
+		z-index:1;
+	}
+	.slides:first-child{
+		left: 0;
+	}
+	.video{
+		height: 100%;
+		width: 100%;
+		border:0;
+	}
+	.slide-arrow{
+		position: absolute;
+		top: 0;
+		left: 0;
+		height: 45%;
+		width: 15%;
+		color:red;
+		cursor: pointer;
+		opacity: .2;
+		z-index:1;
+	}
+	.slide-arrow:hover{
+		opacity: 1;
+	}
+	.slide-arrow:after{
+		content: "\003c";
+		text-align: center;
+		display: block;
+		height: 10%;
+		width: 100%;
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		font-size: 3em;
+	}
+	.slide-arrow.right:after{
+		content: "\003e";
+	}
+	.slide-arrow.right{
+		left: auto;
+		right: 0;
+	}
 
 
  @media (min-width:961px)and (max-width:1023px){
@@ -10647,6 +10644,8 @@ article .cards_radio .parrafo{
  .flexbox-video > div {
 
 	width: 98%;
+	
+	height:100%;
 
 	padding: 10px;
 
@@ -10682,7 +10681,7 @@ article .cards_radio .parrafo{
 
   width: 95%;
 
-  height:95%;
+  height:100%;
 
   margin-bottom:10px;
 
@@ -10697,7 +10696,7 @@ article .cards_radio .parrafo{
 
     width: 100%;
 
-	height:370px;
+	height:335px;
 
     margin-top:0px;
 
