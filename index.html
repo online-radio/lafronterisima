@@ -77,6 +77,48 @@
 	</script>
 	
 	
+	<script src="https://www.youtube.com/iframe_api"></script>
+	
+	<script>
+	$(document).ready(function () {
+		setUpSlider($('#slider1'));
+	})
+
+	function setUpSlider($container) {
+		var pos = 0,
+			slides = $container.find('.slides'),
+			numOfSlides = slides.length;
+
+		function nextSlide() {
+			// `[]` returns a vanilla DOM object from a jQuery object/collection
+			slides[pos].video.stopVideo()
+			slides.eq(pos).animate({ left: '-100%' }, 500);
+			pos = (pos >= numOfSlides - 1 ? 0 : ++pos);
+			slides.eq(pos).css({ left: '100%' }).animate({ left: 0 }, 500);
+		}
+
+		function previousSlide() {
+			slides[pos].video.stopVideo()
+			slides.eq(pos).animate({ left: '100%' }, 500);
+			pos = (pos == 0 ? numOfSlides - 1 : --pos);
+			slides.eq(pos).css({ left: '-100%' }).animate({ left: 0 }, 500);
+		}
+
+		$container.find('.left').click(previousSlide);
+		$container.find('.right').click(nextSlide);
+	}
+
+	function onYouTubeIframeAPIReady() {
+		$('.slides').each(function (index, slide) {
+			// Get the `.video` element inside each `.slide`
+			var iframe = $(slide).find('.video')[0]
+			// Create a new YT.Player from the iFrame, and store it on the `.slide` DOM object
+			slide.video = new YT.Player(iframe)
+		})
+	}
+	</script>
+	
+	
 </head>
 
 
@@ -272,8 +314,23 @@
 
 		     <div class="video-responsive">
 
-		       <iframe src="https://youtube.com/embed/j9Sp9UDIiv4?html5=1&enablejsapi=1"></iframe>
-		      </div>
+		       <div class="video-slider" id="slider1">
+		
+		<div class="slides">
+			<iframe class="video" src="https://www.youtube.com/embed/Rqu88bOxcC4?ecver=2&enablejsapi=1"></iframe>
+		</div>
+	
+		<div class="slides">
+			<iframe class="video" src="https://www.youtube.com/embed/j9Sp9UDIiv4?enablejsapi=1&html5=1&rel=0"></iframe>
+		</div>
+	
+		<div class="slides">
+			<iframe class="video" src="https://www.youtube.com/embed/qUOugEwX-YQ?enablejsapi=1&html5=1&rel=0"></iframe>
+		</div>
+		
+		<div class="slide-arrow left"></div>
+		<div class="slide-arrow right"></div>
+	   </div>
 		   
 	      </aside>
 
@@ -551,7 +608,7 @@ slideit()
 		   <h4 class="center">MAPA</h4>
 		   <div class="youtube-player">
 		   
-		    <iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0" 
+		    <iframe id="sc-widget" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" 
              src="https://maps.google.com/maps?width=100%25&height=600&hl=es&q=Barrio%20cuba%20pereira+()&t=&z=14&ie=UTF8&iwloc=B&output=embed">
             </iframe>
 		   
